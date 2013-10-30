@@ -1,0 +1,4239 @@
+
+\chapter{解答}
+
+\subsection*{1.}
+% 原文では問題番号のあとに問題と答のページ数がついているが、最終組版に依存するので書いていない。
+
+ $u, v$ を数とせよ。
+
+このとき、$u^2 + v^2 = 2$ である。
+
+明らかに $(1 + k), (1 - k)$ は求める平方の形になっている。
+(訳注： $(1 + k) + (1 - k) = 2$ なので、
+$u^2 = 1 + k, v^2 = 1 - k$ とおける、の意味)。
+
+また、2 の代わりに $2 m^2$ と書けば
+(両辺を $m^2$ で割れば、$u^2/m^2 + v^2/m^2 = 2$
+となるから、これは問題に影響を与えない)、
+上の形は $(m^2 + k), (m^2 - k)$ となる。
+
+ここで、これらが平方だから、すぐに
+\[
+(a^2 + b^2 + 2ab), (a^2 + b^2 - 2ab)
+\]
+との類似性に気付く。
+よって問題は $(a^2 + b^2)$ が平方になるような
+$a, b$ を見つけることに帰着し、
+そこで $2ab$ を $k$  とすればよい。
+
+これは以下のような一般的な形でできる。
+\begin{eqnarray*}
+a &=& x^2 - y^2,\\
+b &=& 2xy;\\
+\therefore a^2 + b^2 &=& (x^2 + y^2)^2;
+\end{eqnarray*}
+$\therefore$ 公式 $u^2 + v^2 = 2m^2$ より、
+\[
+(x^2 - y^2 + 2xy)^2 + (x^2 - y^2 - 2xy)^2 = 2(x^2 + y^2)^2;
+\]
+\[
+\mbox{i.e.}
+\left( \frac{x^2 - y^2 + 2xy}{x^2 + y^2}\right)^2
++ \left( \frac{x^2 - y^2 - 2xy}{x^2 + y^2}\right)^2
+= 2.
+\]
+
+Q.E.F.
+
+\subsection*{2.}
+
+[訳者より： ここに図を入れる]
+
+$ABC$ を三角形とし、$DE$ を求められている直線とする。つまり、
+ここで $BD + CE = BC$ となっている。
+
+$BC$ から切り取られた $BF$ は $BD$ に等しく、
+また $CF = CE$ である。
+
+$DF$ と $EF$ をあわせる(訳注：点 $F$ を $BC$ 上の同じ点とする)。
+
+ここで、$\angle BDF = \angle BFD = \mbox{[I. 29 によって]} \angle FDE$
+である(訳注：この番号 I.29 は、ユークリッド「原論」の該当箇所を表している。
+ここでは、第一巻命題29「平行線の錯角は相等しい」)。
+
+同様に、$\angle CEF = \angle FED$ である。
+
+$\therefore$ $\angle BDE, CED$ はそれぞれ $DF, EF$ によって二等分され、
+$F$ は $\triangle ADE$ の外接円 $\odot $ の中心である。
+
+$F$ から $BD, DE, EC$ に $\perp$ を下ろすと、これら $\perp$ は全て等しい
+(訳注：$\perp$ は垂線のこと。通常通りに「垂直」の意味でも使っている)。
+
+ゆえに、$AF$ を考えると、これは $\angle A$ を二等分している。
+
+よって作図ができる。
+
+\begin{center}(作図)\end{center}
+
+$AF$ で $\angle A$ を二等分し、
+$F$ から $FB', FC', \perp AC, AB$ をひき、
+また $FA' \perp BC$ をひくと $FB'$ に等しい。
+そして $A'$ を通って、$DE \perp FA'$ であるように、
+すなわち、$\parallel BC$ であるようにひく(訳注：$\parallel$ は平行の意味)。
+このとき、$DE$ が求める直線である。
+
+$\because A', B', C'$ の $\angle$ たちは直角であり、
+$FA' = FB' = FC'$ である。
+
+$\therefore$ $\angle BDE, CED$ は $DF, EF$ によって二等分される。
+
+ここで、$\angle BFD = \angle FDA'$ であり、
+$\therefore$ これ $= \angle BDF$ となって、
+$\therefore BF = BD$ となる。
+
+同様にして、$CF = CE$ であって、
+$\therefore BC = BD + CE$ となる。
+
+Q.E.F.
+
+\subsection*{3.}
+
+[訳者より： ここに図を入れる]
+
+$ABCD$ をこの四角形とする。その 3 つの辺を $AB, BC, CD$
+とし、平行四辺形 $EFGH$ の頂点によって二等分されているとする。
+
+$BD$ を結ぶ。
+
+$\because$
+三角形 $BCD$ で、辺 $BC, CD$ は点 $F$ と $G$ で二等分される。
+
+$\therefore$
+$FG$ は $BD$ に平行。
+
+しかし、$EH$ は $FG$ に平行である。
+
+$\therefore$
+$EH$ は $BD$ に平行。
+
+$\therefore$
+三角形 $AEH, ABD$ は相似。
+
+ここで、$AE$ は $AB$ の半分の長さである。
+
+$\therefore$
+$AH$ は $AD$ の半分の長さ。
+Q.E.D.
+
+\subsection*{4.}
+
+[訳者より：ここに図を入れる]
+
+$ABC$ を与えられた三角形、
+$A'B'C'$ を $\angle BA'C' = \angle CA'B'$ などであるような、
+求める三角形とする
+
+明らかに $A'C', A'B'$ は $A'$ から $BC$
+に垂直に引かれた直線に対し同じ傾きを持ち、
+他も同様である。
+すなわち、これらの垂線は $A', B', C'$
+で角を二等分している。
+
+$\therefore$ これらは同じ点で交わる。
+これらを引き、その交点を $O$ とする。
+また $\angle C'A'B'$ を $2a$ と表し、
+他も同様に表す。
+
+ここで $(\beta + \gamma) = \pi - \angle B'OC' = A$ である。
+
+\[
+\therefore 2A = 2(\beta + \gamma) = \pi - 2a;
+\]
+\[
+\therefore a = 90^\circ - A;
+\]
+\[
+\therefore \angle BA'C' = A.
+\]
+同様に、
+\[
+\therefore \angle BC'A' = C.
+\]
+$\therefore$ 三角形 $BC'A'$ は三角形 $BCA$ に相似で、
+その他も同様。
+
+\begin{eqnarray*}
+\therefore BA'
+ &=& \frac{c}{a} \cdot BC' = \frac{c}{a} \cdot (c - AC')\\
+ &=& \frac{c}{a} \cdot (c - \frac{b}{c} \cdot AB')\\
+ &=& \frac{c^2}{a} - \frac{b}{a}\cdot(b - CB')\\
+ &=& \frac{c^2}{a} - \frac{b^2}{a} + \frac{b}{a} \cdot \frac{a}{b}\cdot CA'\\
+ &=& \frac{c^2}{a} - \frac{b^2}{a} + a - BA';\\
+\end{eqnarray*}
+\[
+\therefore
+2BA' = \frac{c^2 + a^2 - b^2}{a} = \frac{2 ca \cos B}{a};
+\]
+\[
+\therefore
+BA' = c \cos B;
+\]
+
+$\therefore$ $A'$ は $A$ から $BC$ に下ろした垂線の足。
+ゆえに、構成法は明らか。
+
+Q.E.F.
+
+
+\subsection*{5.}
+
+一見は、袋の中の状態は操作の前と後とで同じでなければならず、
+確率は全くもとのまま、$\frac{1}{2}$ であると思われるかも知れない。
+しかしながら、これは間違いである。
+
+操作の前、袋が(a)白石1つ、(b)黒石1つ、を含む確率は、
+(a) $\frac{1}{2}$ (b) $\frac{1}{2}$ である。
+ゆえに、操作の後、
+袋が(a)白石 2 つ、 (b) 白石 1 つと黒石 1 つ、を含む確率は、
+同じく、
+(a) $\frac{1}{2}$ (b) $\frac{1}{2}$ である。
+ここで、これら 2 つの状態が白石をひくという観測された事象に与える確率は、
+(a) 確実、(b) $\frac{1}{2}$ である。
+ゆえに、白石をひいたあと、
+石をひく前の袋が (a) 白石2つ、(b)白石1つと黒石1つ、
+を含む確率は、
+(a) $\frac{1}{2} \cdot 1$, (b) $\frac{1}{2}\cdot \frac{1}{2}$,
+つまり、(a) $\frac{1}{2}$, (b) $\frac{1}{4}$,
+すなわち、(a) $2$, (b)$1$ に比例する。
+ゆえに、確率は (a) $\frac{2}{3}$ (b) $\frac{1}{3}$ である。
+よって、白石を取り除いたあと、袋が(a)白石1つ、
+(b)黒石1つを含む確率は、(a) $\frac{2}{3}$ (b) $\frac{1}{3}$
+となる。
+
+よて、いま白石をひく確率は $\frac{2}{3}$ である。
+
+Q.E.F.
+
+\subsection*{6.}
+
+各辺を $2a, 2b, 2c$ とし、問題の線分を $\alpha, \beta, \gamma$
+とする。
+
+[訳者より：ここに図を入れる]
+
+ここで、
+$\cos ADB + \cos ADC = 0$ である。
+\[
+\therefore
+\frac{a^2 + \alpha^2 - 4c^2}{2a \alpha} 
++ \frac{a^2 + \alpha^2 - 4b^2}{2a \alpha};
+\]
+\[
+\therefore
+2 a^2 + 2\alpha^2 - 4b^2 - 4c^2 = 0;
+\]
+\[
+\therefore
+\alpha^2 = - a^2 + 2b^2 + 2c^2.
+\]
+同様にして、
+\begin{eqnarray*}
+\beta^2 &=& 2 a^2 - b^2 + 2c^2;\\
+\gamma^2 &=& 2 a^2 + 2b^2 - c^2.
+\end{eqnarray*}
+$b,c $ を消去するために、$k, l, m$ 倍して、
+\[
+2k -l + 2m = 0,
+\]
+かつ
+\[
+2k + 2l - m = 0
+\]
+であるようにすると、
+\[
+\therefore
+3 (l-m) = 0;
+\quad \mbox{すなわち}
+l = m;
+\]
+\[
+\therefore
+2k = -l = -m;
+\]
+ゆえに、 $k = -1, l = 2, m = 2$ ととれる。
+\[
+\therefore
+- \alpha^2 + 2 \beta^2 + 2 \gamma^2 = 9 a^2;
+\]
+すなわち、
+\[
+a^2 = \frac{- \alpha^2 + 2 \beta^2 + 2 \gamma^2}{9};
+\]
+\[
+\therefore
+BC (= 2a) = \frac{2}{3} \sqrt{- \alpha^2 + 2 \beta^2 + 2 \gamma^2}
+\]
+などと各辺の長さが与えられる。
+また、
+\begin{eqnarray*}
+\cos A &=& \frac{b^2 + c^2 - a^2}{2bc}\\
+ &=& \frac{2\alpha^2 - \beta^2 + 2\gamma^2
+2\alpha^2 + 2\beta^2 - \gamma^2 + \alpha^2 - 2\beta^2 - 2\gamma^2}
+{2 \sqrt{2\alpha^2 - \beta^2 + 2\gamma^2}
+\sqrt{2\alpha^2 + 2\beta^2 - \gamma^2}}\\
+&=&
+\frac{5 \alpha^2 - \beta^2 - \gamma^2}{\mbox{分母}};
+\end{eqnarray*}
+他の角度も同様に得られる。
+
+Q.E.F.
+
+\subsection*{7.}
+
+[訳者より：ここに図を入れる]
+
+$AB, AD$ を与えられた辺とし、
+$B, D$ を直角とする。
+$AB = b, AD = d$ とおく。
+
+$DC$ を延長して $AB$ の延長と交わる点を $E$ とする。
+
+ここで、$AE = AD \sec A = d \sec A$ であるから、
+\[
+\therefore BE = d \sec A - b.
+\]
+また、
+\begin{eqnarray*}
+BC &=& BE \tan E = (d \sec A - b) \cot A\\
+ &=& \frac{d - b\cos A}{\sin A}
+\end{eqnarray*}
+である。
+
+[訳者より：ここに図を入れる]
+
+同様にして、
+\[
+CD = \frac{b - d \cos A}{\sin A}
+\]
+となって、これが答 (1) である。
+また、
+\begin{eqnarray*}
+\mbox{面積}
+&=& \frac{1}{2} (AB \cdot BC + AD \cdot DC)\\
+&=&  \frac{1}{2} \cdot \frac{b(d - b \cos A) + d(b - d \cos A)}{\sin A}\\
+&=& \frac{2bd - (b^2 + d^2) \cos A}{2 \sin A}
+\end{eqnarray*}
+となって、これが答 (2) である。
+
+Q.E.F.
+
+\subsection*{8.}
+
+$m$ を人数とし、最後の(つまり、最も貧しい)
+男の所持金を $k$ シリングとする。
+一周のあと、各人は 1 シリングずつ貧しくなり、
+第一の男に渡される金額は $m$ シリングになる。
+ゆえに、$k$ 周のあと、各人は $k$ シリングずつを失い、
+最後の男は今や無一文になり、
+渡される金額は $mk$ シリングになる。
+ゆえに、最後の男が硬貨の山に自分の分を追加しようとしたとき、
+このゲームは終わり、
+そのとき渡す金額は $(mk + m -1)$ シリングになっていて、
+最後から 2 番目の男は手持ちがなくなっており、
+第一の男が $(m-2)$ シリング持っている。
+
+最初と最後の男が、手持ちの額の比が $4: 1$ になる
+唯一の隣人であることは明らかである。
+ゆえに、
+\[
+mk + m - 1 = 4(m-2)
+\]
+であるか、または、
+\[
+4(mk + m - 1) = m -2
+\]
+であるかのいずれかである。
+ 1 つめの方程式からは、$mk = 3m - 7$ となり、
+つまり、$k = 3 - 7/m$ であるが、
+これは明らかに $m = 7, k = 2$ 以外に整数解を与ええない。
+ 2 つめの方程式からは、
+$4mk = 2 - 3m$ となって、
+正の整数解を持たないことは明らか。
+
+ゆえに答は 7 人と、2 シリングである。
+
+\subsection*{9.}
+
+[訳者より：ここに図を入れる]
+
+$AB, AC$ を与えられた直線、$P$ を与えられた点とし、
+$AP$ を結ぶ。
+
+$A$ を通って、$AP$ に垂直かつ $A$ が中点になるように $EAF$ をひき、
+$E, F$ から $AP$ に平行に $EG, FH$ をひき、$AB, AC$
+で $G, H$ で交わるものとする。
+$GH$ を結び、この上に半円を描いて、
+$AP$ を切り取る点を $K$ とし、$KG, KH$ を結ぶ。
+このとき、$\angle GKH$ は直角である。
+$P$ から $PL, PM$ をひき、$KG, KH$ と平行になるようにする。
+
+ここで、三角形 $APL$ は三角形 $AKG$ に対して、
+$AP$ と $AK$ の比の二乗の比の面積を持つ。
+
+しかし、三角形 $APM$ と $AKH$ に対する比もそうである。
+
+また、三角形 $AKG, AKH$ の面積は同じ底辺 $AK$ と、
+同じ高さ $AE, AF$ を持つから等しい。
+
+$\therefore$ 三角形 $APL, APM$ の面積は等しい。
+そして、$\angle LPM$ は明らかに $\angle GKH$ に等しい。
+$\therefore$ それは直角である。
+
+Q.E.F.
+
+\subsection*{10.}
+
+求める硬貨をそれぞれ $x, y, z$ とし、
+$x + y + z = s$ とする。
+
+ポケットが 2 つの玉を含む確率は $2/3$ であり、
+このときは、「期待値」は
+$(y + z), (z + x), (x + y)$ の平均値、
+つまり $2 s /3$ になる。
+
+また、 1 つだけの玉を含む確率は $1/3$ であり、
+このときの「期待値」は $s/3$ である。
+
+ゆえに、全体の「期待値」は
+\[
+\frac{4s}{9} + \frac{s}{9} = \frac{5s}{9}
+\]
+となる。
+\[
+\therefore \frac{5s}{9} = 30;
+\quad \therefore s = 54.
+\]
+よって 54 ペンスとなる硬貨の組み合わせを考えて、
+答はフローリン硬貨が 2 枚と 6 ペンス硬貨が 1 枚、
+または、半クラウン硬貨が 1 枚とシリング硬貨が 2 枚。
+
+Q.E.F.
+
+\subsection*{11.}
+
+[訳者より：ここに図を入れる]
+
+ここで、
+\[
+\frac{BA'}{A'C'} = \frac{\sin (B + \theta)}{\sin B};
+\quad \mbox{そして}
+\frac{A'C}{A'B'} = \frac{\sin \theta}{\sin C}.
+\]
+\[
+\therefore
+BA = \frac{\sin (B + \theta)}{\sin B} ka;
+\quad \mbox{そして}
+A'C = \frac{\sin \theta}{\sin C} kb.
+\]
+しかし、$BA' + A'C = a$ だから、
+\begin{eqnarray*}
+\therefore
+k
+&=&
+\frac{a}
+    {\frac{a \sin (B + \theta)}{\sin B} + \frac{b \sin \theta}{\sin C}}
+=
+\frac{\sin A}
+    {\frac{\sin A \sin (B + \theta)}{\sin B} + \frac{\sin B \sin \theta}{\sin C}}\\
+&=&
+\frac{\sin A \sin B \sin C}
+ {\sin A \sin (B + \theta) \sin C + \sin^2 B \sin \theta}\\
+&=&
+\frac{\sin A \sin B \sin C}
+ {\sin A \sin C (\sin B \cos \theta + \cos B \sin \theta)
+ + (1 - \cos^2 B) \sin \theta}\\
+&=&
+\frac{\sin A \sin B \sin C}
+ {\sin \theta + \sin \theta (\sin A \sin C \cos B - \cos^2 B)
+  + \cos \theta \sin A \sin B \sin C}\\
+&=&
+\frac{\sin A \sin B \sin C}
+ {\sin \theta + \sin \theta \cos B (\sin A \sin C - \cos (A + C))
+ + \cos \theta \sin A \sin B \sin C}\\
+&=&
+\frac{\sin A \sin B \sin C}
+ {\sin \theta (1 + \cos A \cos B \cos C) + \cos \theta \sin A \sin B \sin C}.
+\end{eqnarray*}
+
+Q.E.F.
+
+系として $\theta = 90^\circ$ のときには、
+\[
+k = \frac{\sin A \sin B \sin C}{1 + \cos A \cos B \cos C}.
+\]
+
+\subsection*{12.}
+
+$s$ を半径、$m$ を面積、$v$ を体積とする。
+公式 $m = \sqrt{s(s-a)(s-b)(s-c)}$ はよく知られている。
+\begin{eqnarray*}
+\therefore
+m^2 &=& s(s-a)(s-b)(s-c);\\
+\therefore
+\frac{m^2}{s}
+&=& s^2 - s^2(a + b + c) + s(bc + ca + ab) - abc\\
+&=& s^2 - 2s^2 + s(bc + ca + ab) - v;\\
+\end{eqnarray*}
+\[
+\therefore
+\frac{m^2}{s^2} + \frac{v}{s} + s^2
+ = bc + ca + ab;
+\]
+\begin{eqnarray*}
+\therefore
+2 \left(\frac{m^2}{s^2} + \frac{v}{s} + s^2 \right)
+&=& (a + b + c)^2 - (a^2 + b^2 + c^2)\\
+&=& 4s^2 - (a^2 + b^2 + c^2);
+\end{eqnarray*}
+\[
+\therefore
+a^2 + b^2 + c^2 =
+2 \left( s^2 - \frac{v}{s} - \frac{m^2}{s^2} \right).
+\]
+
+Q.E.F.
+
+
+\subsection*{13.}
+
+[訳者より: ここに図を入れる]
+
+$A, B$ を 2 つの円の中心として、
+$C, D$ を 2 つの円の交点とし、
+面積を求めたい四角形を $CFDE$ とする。
+
+三角形 $ABC$ の各辺の長さを $a, b, c$ とし、
+角度を $\alpha, \beta, \gamma$ とする。
+
+このとき、$CE = b \tan \alpha$ であり、
+$CF = a \tan \beta$ である。
+
+また、$\angle FCE = \angle ACE + \angle FCB - \gamma = \pi - \gamma$
+である。
+ゆえに $\sin FCE = \sin \gamma$.
+
+ゆえに、三角形 $FCE$ の面積は
+$\frac{1}{2} ab \tan \alpha \tan \beta \sin \gamma$
+である。
+\[
+\therefore
+\mbox{四角形の面積} =
+\frac{ab \sin \alpha \sin \beta \sin \gamma}{\cos \alpha \cos \beta}.
+\]
+ここで、三角形 $ABC$ の面積を $M$ とすると、
+\[
+\sin \alpha = \frac{2M}{bc},
+\quad \sin \beta = \frac{2M}{ca},
+\quad \sin \gamma = \frac{2M}{ab}
+\]
+となる。
+\begin{eqnarray*}
+\mbox{四角形の面積}
+&=& ab \frac{8M^2}{a^2 b^2 c^2} \frac{4bc \cdot ca}{(b^2 + c^2 - a^2)(c^2 + a^2 - b^2)}\\
+&=& \frac{32 M^3}{(b^2 + c^2 - a^2)(c^2 + a^2 - b^2)}.
+\end{eqnarray*}
+
+Q.E.F.
+
+\subsection*{14.}
+
+これは以下の単純な等式の帰結である。
+\begin{eqnarray*}
+3(a^2 + b^2 + c^2)
+&=&
+(a + b + c)^2 + (b^2 - 2bc + c^2) + (c^2 - 2ca + a^2) + (a^2 - 2ab + b^2)\\
+&=&
+(a + b + c)^2 + (b - c)^2 + (c - a)^2 + (a - b)^2.
+\end{eqnarray*}
+
+Q.E.D.
+
+数値例としては以下など。
+\[
+3(1^2 + 2^2 + 3^2) = 6^2 + 1^2 + 2^2 + 1^2.
+\]
+\[
+3(1^2 + 3^2 + 7^2) = 11^2 + 4^2 + 6^2 + 2^2.
+\]
+
+\subsection*{15.}
+
+[訳者より: ここに図を入れる]
+
+$ABCD$ を内接する四角形とする。
+$AC$ を結び、三角形 $ACD$ について外接円を描く。
+
+ここで、もしこの円が $B$ を通らないならば、
+辺$CB$ かその延長を $B'$ か $B''$ で切り取る。
+$AB', AB''$ を結ぶ。
+
+このとき、
+$\angle AB'C$ または $\angle AB''C$ は $\angle ADC$ と補角をなす。
+
+ゆえに、それは $\angle ABC$ に等しく、これは意味がない。
+
+よって、この円は $B$ を通らねばならない。
+
+同じことが与えられた図形と同じ長さと角度を持つ他の点について、
+つまり、
+辺 $AC$ に対して $D$ と同じ側にとった点についても言える。
+
+他の部分についても同様。
+
+ゆえに、図形 $F$ は円である。
+
+Q.E.D.
+
+
+
+\subsection*{16.}
+
+ 1 つ目の袋の可能な状態の「先験的な」確率は、
+「白 $\frac{1}{2}$；黒 $\frac{1}{2}$ 」である。
+よって、白石を入れたあとは、「白白 $\frac{1}{2}$；白黒 $\frac{1}{2}$」 である。
+これらが「観察される事象」を与える確率は $1$ と $\frac{1}{2}$ である。
+ゆえに、その事象のあと、
+可能な状態「白、黒」の確率は、
+$1, \frac{1}{2}$ に、つまり $2, 1$ に比例する。
+すなわち、それらの実際の値は $\frac{2}{3}, \frac{1}{3}$ である。
+
+ここで、一番目の方法では、白をひく確率は、
+$\frac{1}{2} \cdot \frac{2}{3} + \frac{1}{2} \cdot \frac{1}{3}$
+つまり、$\frac{1}{2}$ である。
+
+そして二番目の方法では、可能な状態「白白黒黒」、「白黒黒黒」
+の確率が $\frac{2}{3}, \frac{1}{3}$ であるから、
+白をひく確率は、
+$\frac{2}{3} \cdot \frac{1}{2} + \frac{1}{3} \cdot \frac{1}{4}$
+となって、$\frac{5}{12}$ である。
+
+ゆえに、前者の方が確率が大きい。
+
+\subsection*{17.}
+
+(解析)
+
+$ABC$ を与えられた三角形とし、$DE$ を求める直線とする。
+
+[訳者より：ここに図を入れる]
+
+$D, E$ から $DF, EG$ を側辺に並行にひく。
+このとき $DF + EG = DE$ である。
+
+$BE$ は平行四辺形だから、$\therefore DB = EG$ となり、
+同様に $EC = DF$ である。
+$\therefore DB + EC = DE$ である。ゆえに、作図ができる。
+
+(作図)
+
+角 $B, C$ を $H$ で出会う $BH, CH$ によって二等分する。
+$H$ を通って $BC$ と平行に $DE$ をひく。
+$D, E$ から $AC, AB$ に平行に $DF, FG$ をひく。
+
+$DE$ は $BC$ に平行だから、
+\[
+\therefore \angle DHB = \angle HBF = \angle DBH;
+\]
+\[
+DB = DH.
+\]
+同様に $EC = EH$ である。
+\[
+\therefore
+DB + EC = DE
+\]
+である。
+$BE, DC$ は平行四辺形だから、
+\[
+\therefore
+EG = DB; \quad DF = EC
+\]
+である。
+\[
+\therefore
+DF + EG = DE
+\]
+となる。
+
+Q.E.F.
+
+\subsection*{18.}
+
+[訳者より：ここに図を入れる]
+
+(1)
+求める点を $E$ とする。
+$E$ から $EF, FG$ を側辺に垂直にひき、
+$FG$ を結ぶ。
+$F, G$ から$FH, GK$ を $BC$ に垂直にひく。
+$BE$ を $x$, $EC$ を $y$ と呼ぶ。
+
+ここで、$FH = GK$ となる。
+
+また、$EF = s \sin B$ で $FH = EF \sin FEH = EF \cos B = x \sin B \cos B$
+である。
+同様に $GK = y \sin C \cos C$ である。
+
+しかし、$FH = GK$ であるから、
+$\therefore x \sin B \cos B = y \sin C \cos C$
+である。
+\[
+\therefore
+\frac{x}{y} = \frac{\sin 2C}{\sin 2B}
+\]
+となる。
+
+Q.E.F.
+
+[作者より： ここに図を入れる]
+
+(2)
+$B, C$ で直角 $ABD, ACD$ を書き、
+$AD$ を結び、点 $E$ で辺 $BC$ を切り取る。
+$E$ から $EF, EG$ を側辺に垂直にひき、
+$FG$ を結ぶ。
+
+$\because BD, FE$ は $AB$ に垂直、
+$\therefore$ これらは平行、
+$\therefore AF: FB = AE: ED$ である。
+
+$\because CD, GE$ は $AC$ に垂直、
+$\therefore$ これらは平行、
+$\therefore AG: GC = AE: ED$ である。
+
+$\therefore
+AF: FB = AG: GC$ である。
+
+$\therefore FG$ は $BC$ に平行である。
+
+Q.E.F.
+
+\subsection*{19.}
+
+袋を $A, B, C$ と呼び、$A$ は白石 1 つと黒石 1 つを含む、などとする。
+
+袋の順序 $ABC, ACB, BAC, BCA, CAB, CBA$ の確率は、
+先験的に、各々 $\frac{1}{6}$ である。
+これらは等しいから、
+観測された事象に確率を与えるために各々かけ算をする代わりに、
+それらの確率は観測された事象の「あとの」確率に比例していると
+単純に仮定してよい。
+
+これらの確率は、
+$ABC$ には $\frac{1}{2} \times \frac{1}{3} = \frac{1}{6}$,
+$ACB$ には $\frac{1}{2} \times \frac{1}{4} = \frac{1}{8}$,
+$BAC$ には $\frac{2}{3} \times \frac{1}{2} = \frac{1}{3}$,
+$BCA$ には $\frac{2}{3} \times \frac{1}{4} = \frac{1}{6}$,
+$CAB$ には $\frac{3}{4} \times \frac{1}{2} = \frac{3}{8}$,
+$CBA$ には $\frac{3}{4} \times \frac{1}{3} = \frac{1}{4}$
+となる。
+
+ゆえに、確率は $4, 3, 8, 4, 9, 6$ に比例して、
+つまり、これらの数字を $34$ で割ったものになる。
+
+ゆえに、残った袋から白石をひく確率は、
+\[
+\frac{1}{34} \left\{
+    4 \times \frac{3}{4}
+  + 3 \times \frac{2}{3}
+  + 4 \times \frac{1}{2}
+  + 9 \times \frac{2}{3}
+  + 6 \times \frac{1}{2}
+  \right\}
+\]
+となって、つまり、
+\[
+\frac{1}{34} \left\{
+    3 + 2 + 6 + 2 + 6 + 3
+  \right\}
+  = \frac{22}{34} = \frac{11}{17}
+\]
+である。
+
+\subsection*{20.}
+
+(解析)
+
+$ABC$ を与えられた三角形とし、$P$ を求める点とする。
+$PQ \perp BC$ と$PR \perp AB$ をひく。
+このとき、$PQ = PR$ である。
+
+ゆえに、$PC \tan C = PB \sin B$ である。
+\[
+\therefore
+PC: PB = \sin B : \tan C
+\quad \mbox{($AD \perp BC$ をひく)}
+\]
+となって、
+\[
+= \frac{AD}{AB} : \frac{AD}{DC}
+= DC : AB
+\]
+となるから、作図できる。
+
+[訳者より： ここに図を入れる]
+
+(作図)
+
+$A$ から $AD \perp BC$ をひく。
+$E$ まで $BA$ を延長し、$AE$ と $DC$ を等しくする。
+$EC$ を結ぶ。
+$A$ から $EC$ に平行に $AP$ をひき、
+$P$ から $PQ \perp BC$ と $PR \perp AB$ をひく。
+このとき、
+
+\begin{eqnarray*}
+\frac{PQ}{PC}
+&=& \frac{AD}{DC} = \frac{AD}{AB} \cdot \frac{AB}{DC}\\
+&=& \frac{PR}{PB} \cdot \frac{AB}{AE}\\
+&=& \frac{PR}{PB} \cdot \frac{PB}{PC} = \frac{PR}{PC}
+\end{eqnarray*}
+
+となるから、$\therefore PQ = PR$ となる。
+
+Q.E.F.
+
+\subsection*{21.}
+
+(1)
+第 $n$ 項は $n(n+2)(n+4)$ だから、
+第 $n+1$ 項は、
+\begin{eqnarray*}
+\lefteqn{(n+1)(n+3)(n+5)}\\
+&=&
+(n+1)((n+2) + 1)(n+5)\\
+&=&
+(n+1)(n+2)(n+5) + (n+1)(n+5)\\
+&=&
+(n+1)(n+2)((n+3)+2) + (n+1)((n+2)+3)\\
+&=&
+(n+1)(n+2)(n+3) + 2(n+1)(n+2) + (n+1)(n+2) + 3(n+1)\\
+&=&
+(n+1)(n+2)(n+3) + 3(n+1)(n+2) + 3(n+1)
+\end{eqnarray*}
+\begin{eqnarray*}
+\therefore
+S 
+&=& n(n+1)\left( \frac{n^2 + 5n + 6}{4} + n + 2 + \frac{3}{2} \right)\\
+&=& n(n+1)\frac{n^2 + 9n + 20}{4}
+= \frac{n(n+1)(n+4)(n+5)}{4}
+\end{eqnarray*}
+
+Q.E.F.
+
+(2)
+$100$ 項までの $S$ は、
+\[
+= \frac{100 \cdot 101 \cdot 104 \cdot 105}{4}
+= 100 \cdot 101 \cdot 26 \cdot 105
+\]
+となって、$101 \cdot 105 = 10605$ より、
+\[
+101 \cdot 105 \cdot 13 = 130000 + 7800 + 65 = 137865
+\]
+であり、この二倍は $274000 + 1730 = 275730$.
+よって、$S = 27573000$ となる。
+
+Q.E.F.
+
+\subsection*{22.}
+
+[訳者より： ここに図を入れる]
+
+与えられた高さを $\alpha, \beta, \gamma$ とする。
+
+ここで $a \alpha = b \beta = c \gamma$ である。
+\[
+\therefore
+\alpha \sin A = \beta \sin B = \gamma \sin C;
+\]
+\[
+\therefore
+\frac{\sin A}{\beta \gamma} = \frac{\sin B}{\gamma \alpha}
+  = \frac{\sin C}{\alpha \beta}.
+\]
+この値を $k$ とおくことにする。
+\[
+\therefore
+\sin A = k \beta \gamma,
+\quad \sin B = k \gamma \alpha,
+\quad \sin C = k \alpha \beta.
+\]
+ここで $\sin (A + B) = \sin C$ であるから、
+\[
+\therefore
+\sin A \cos B + \cos A \sin B = \sin C;
+\]
+\[
+\therefore
+\sin A \cos B  =  \sin C - \cos A \sin B;
+\]
+\[
+\therefore
+\sin^2 A (1 - \sin^2 B) = \sin^2 C + \sin^2 B (1 - \sin^2 A)
+ - 2 \sin C \cos A \sin B;
+\]
+\[
+\therefore
+\sin^2 A  - \sin^2 A \sin^2 B
+= \sin^2 C + \sin^2 B - \sin^2 A \sin^2 B
+ - 2 \sin B \sin C \cos A;
+\]
+\[
+\therefore
+\sin^2 A - \sin^2 B - \sin^2 C
+= -2 \sin B \sin C \cos A;
+\]
+ゆえにこれを二乗して、
+\begin{eqnarray*}
+(\sin^4 A &+& \cdots) - 2 \sin^2 A \sin^2 B - 2 \sin^2 A \sin^2 C
++ 2 \sin^2 B \sin^2 C\\
+&=&
+4 \sin^2 B \sin^2 C (1 - \sin^2 A);
+\end{eqnarray*}
+\[
+\therefore
+(\sin^4 A + \cdots) - 2 (\sin^2 B \sin^2 C + \cdots)
++ 4 \sin^2 A \sin^2 B \sin^2 C = 0;
+\]
+$\sin A$ などに代入して、$k^4$ で割ると、
+\[
+(\beta^4 \gamma^4 + \cdots) - 2 \alpha^2 \beta^2 \gamma^2 (\alpha^2 + \cdots)
++ 4 k^2 \alpha^4 \beta^4 \gamma^4 = 0;
+\]
+\[
+\therefore
+k^2 =
+\frac{2 \alpha^2 \beta^2 \gamma^2 (\alpha^2 + \cdots) - (\beta^4 \gamma^4 + \cdots)}{4 \alpha^4 \beta^4 \gamma^4}.
+\]
+ここで、$\sin A = k \beta \gamma$ などであるから、
+(2) の答である。
+
+また、$\alpha = b \sin C$ であり、同様に $\gamma = a \sin B$ だから、
+\[
+\therefore
+a = \frac{\gamma}{\sin B} = \frac{\gamma}{k \gamma \alpha} = \frac{1}{k\alpha},
+\]
+などとなって、これが (1) の答である。
+また、
+\[
+\mbox{面積}
+= \frac{bc \sin A}{2} = \frac{1}{2} \cdot \frac{1}{k\beta} \cdot \frac{1}{k\gamma} \cdot k \beta \gamma = \frac{1}{2k}
+\]
+が (3) の答である。
+
+Q.E.F.
+
+\subsection*{23.}
+
+もとの確率は、袋の状態にしたがって、
+「白2」には $\frac{1}{4}$;
+「白1、黒1」には  $\frac{1}{2}$;
+「黒2」には $\frac{1}{4}$
+である。
+
+$\therefore$ 白石 2 つと黒石 1 つを追加したあとでは、
+「白4、黒1」には $\frac{1}{4}$;
+「白3、黒2」には  $\frac{1}{2}$;
+「白2、黒3」には $\frac{1}{4}$
+となる。
+
+ここで、これらが観測された事象、
+白石 2 つと黒石 1 つをひく事象に与える確率は、
+$\frac{3}{5}, \frac{3}{5}, \frac{3}{10}$
+である。
+
+$\therefore$ この事象のあと、確率は
+$\frac{3}{20}, \frac{3}{10}, \frac{3}{40}$
+つまり $2, 4, 1$ に比例する。
+ゆえに、確率は $\frac{2}{7}, \frac{4}{7}, \frac{1}{7}$ である。
+
+ゆえに、
+上に述べたように今の確率は、
+「白 2」は $\frac{2}{7}$,
+「白 1、黒 1」は $\frac{4}{7}$,
+「黒 2」は $\frac{1}{7}$
+となっている。
+
+$\therefore$
+白石 1 つを加えたあとの確率は、
+「白 2」は $\frac{2}{7}$,
+「白 2、黒 1」は $\frac{4}{7}$,
+「白 1、黒 2」は $\frac{1}{7}$
+である。
+
+ここで、これらが観測された事象、
+白石 1 つをひく事象に与える確率は、$1, \frac{2}{3}, \frac{1}{3}$
+である。
+
+$\therefore$
+この事象のあと、確率は $\frac{2}{7}, \frac{8}{21}, \frac{1}{21}$に、
+つまり $6, 8, 1$ に比例する。
+ゆえに、$\frac{6}{15}, \frac{8}{15}, \frac{1}{15}$ である。
+
+ゆえに、今袋の中に白石が 2  つ入っている確率は $\frac{6}{15}$
+つまり、$\frac{2}{5}$ である。
+
+Q.E.F.
+
+\subsection*{24.}
+
+[訳者より： ここに図を入れる]
+
+\[
+\frac{DO}{OA} = \frac{\triangle DOC}{\triangle OAC}
+ = \frac{\triangle DOB}{\triangle OAB}
+ = \frac{\triangle OBC}{\triangle OCA + \triangle OAB}
+ \]
+ であるから、
+\[
+\therefore
+\frac{DO}{DA} = \frac{\triangle OBC}{\triangle ABC}.
+\]
+同様にして、
+\[
+\frac{EO}{EB} =  \frac{\triangle OCA}{\triangle ABC},
+\quad \mbox{かつ} \quad
+\frac{FO}{FC} =  \frac{\triangle OAB}{\triangle ABC}
+\]
+である。
+ゆえに、
+\[
+\frac{DO}{DA} + \frac{EO}{EB} + \frac{FO}{FC} = 1.
+\]
+
+Q.E.F.
+
+\subsection*{25.}
+
+$E$ を「目を失なった人」、
+$A$ を「腕を失なった人」、
+$L$ を「脚を失なった人」とする。
+
+このとき、$E$ かつ $A$ であるか、または $L$ であるような人の、
+ありうる最小の人数を与える状態は明らかに、
+患者たちを一列に並べて、
+$EA$ 類をこの列の一方の端から並べ、
+$L$ 類を反対の端から並べるようにし、
+それらが重なっている分量を数えることで、
+得ることができる。
+そして、$EA$ 類が小さいほど、
+この重なっている部分も小さくなるから、
+$EA$ 類を最小にしなければならない。
+
+[訳者より：ここに図を入れる]
+
+これは患者の列を並びかえて、
+$E$ 類を列の一方の端から並べ、
+反対側の端から $A$ を並べることで得られる。
+これより、$EA$ 類の可能な最小の人数は、この共通部分、
+つまり $(\epsilon - (1 - \alpha) = \epsilon + \alpha - 1$ である。
+
+[訳者より：ここに図を入れる]
+
+このとき、既に見たように、
+$EAL$ 類のありうる最小の人数はこの共通部分で、
+$(\epsilon + \alpha - 1 - (1 - \lambda)) = \epsilon + \alpha + \lambda - 2$
+である。
+
+Q.E.F.
+
+\subsection*{26.}
+
+[訳者より：ここに図を入れる]
+
+$ABC$ を与えられた三角形とし、
+$A'B'C'$ を求める三角形とする。
+$BC$ に対する $B'C'$ の比を $k$ とする。
+$k$ は $1$ より小さい。
+
+$BB' = CC'$ であり、また、
+$B', C'$ から $BC$ の垂線を下ろすとそれらが等しくなることから、
+容易に証明できるように、
+$BC, B'C'$ は平行だから、
+$\angle B'BC, C'CB$ は等しい。
+
+同様にして、角 $A'AC, C'CA$ は等しく、
+また、角 $A'AB, B'BA$ も等しい。
+
+$\angle B'BC$ を $\theta$ とすると、
+$\angle C'CB = \theta$ である。
+\[
+\therefore
+\angle C'CA = C - \theta = \angle A'AC;
+\]
+\[
+\therefore
+\angle A'AB = A - (C - \theta) = \angle B'BA.
+\]
+ここで、角 $B'BC, B'BA$ はともに $B$ に等しい。
+\[
+\therefore
+\theta + A - (C - \theta) = B;
+\]
+\[
+\therefore
+2 \theta = B + C - A = 180^\circ - 2A;
+\]
+\[
+\therefore
+\theta = 90^\circ - A.
+\]
+
+ゆえに、もし $BB', CC'$ の延長が点 $D$ で交わるとすると、
+三角形 $DBC$ は二等辺三角形であり、頂角は $2A$ に等しい。
+
+ここで、もし三角形 $ABC$ の外接円を描くと、
+その中心と $B, C$ を結んだ三角形は、
+同じ条件を満たす三角形となる。
+
+ゆえに、この円の中心は $D$ であり、
+よって、作図ができる。
+
+(作図)
+
+側辺を各々二等分する点から垂線を下ろし、
+その交点を $D$ とする。
+$D$ と頂点 $B, C$ を結ぶ。
+$DB$ から $DB' = k \cdot DB$ となる $B'$ をとる。
+$B'$ から $BC$ に平行に $B'C'$ をひく。
+
+このとき、$B'C'$ は $k \cdot BC$ に等しいことが容易に証明される。
+
+そして、もし、$B', C'$ から $AB, AC$ に平行に直線をひけば、
+それらが $DA$ 上で交わり、
+各々、$k \cdot AB, k \cdot AC$ に等しいことが容易に証明される。
+
+Q.E.F.
+
+\subsection*{27.}
+
+袋を $A, B, C$ と呼ぼう。
+
+もし残った袋が $A$ ならば、
+観測された事象の確率は、
+$B$ から白をひき、$C$ から黒をひく確率の $\frac{1}{2}$
+と、
+$B$ から黒をひき、$C$ から白をひく確率の $\frac{1}{2}$
+の和、すなわち、
+\[
+\frac{1}{2} \left\{ \frac{2}{3} \times \frac{1}{2}
+ + \frac{1}{3} \times \frac{1}{2} \right\} = \frac{1}{4}
+\]
+である。
+
+同様に、もし残った袋が $B$ ならば、
+\[
+\frac{1}{2} \left\{ \frac{5}{6} \times \frac{1}{2}
+ + \frac{1}{6} \times \frac{1}{2} \right\} = \frac{1}{4},
+ \]
+残った袋が $C$ ならば、
+\[
+\frac{1}{2} \left\{ \frac{5}{6} \times \frac{1}{3}
+ + \frac{1}{6} \times \frac{2}{3} \right\} = \frac{7}{36}
+ \]
+である。
+
+ゆえに、残った袋が $A, B, C$ である確率は、
+$\frac{1}{4}, \frac{1}{4}, \frac{7}{36}$ つまり、
+$9, 9, 7$ に比例するから、
+$\frac{9}{25}, \frac{9}{25}, \frac{7}{25}$ となる。
+
+ここで、もし残った袋が $A$ ならば、
+そこから白をひく確率は $\frac{5}{6}$ であり、
+ゆえに、
+これが起こる確率は $\frac{5}{6} \times \frac{9}{25} = \frac{3}{10}$
+となる。
+同様に、$B$ について、
+$\frac{2}{3} \times \frac{9}{25} = \frac{6}{25}$,
+$C$ について、
+$\frac{1}{2} \times \frac{7}{25} = \frac{7}{50}$
+である。
+そして残りの袋から白石をひく全体の確率はこれらの和であるから、
+$\frac{15+12+7}{50} = \frac{34}{50} = \frac{17}{25}$
+となる。
+
+\subsection*{28.}
+
+[訳者より：ここに図を入れる]
+
+$ABC$ を与えられた三角形とし、
+各辺を相乗平均の比に内分した点を $A', B', C'$ とする。
+$M$ を $ABC$ の面積とする。
+
+$BA' = x$ とすると、$x^2 = a (a-x)$, つまり、
+\[
+x^2 + ax - a^2 = 0
+\]
+であるから、
+\[
+x = \frac{-a \pm a \sqrt{5}}{2}
+ = \frac{a}{2} (\sqrt{5} - 1).
+ \]
+もう一方の符号は題意によって却下される。
+
+このとき三角形 $AB'C'$ の面積は、
+\begin{eqnarray*}
+&=&
+\frac{1}{2} \cdot \frac{c}{2}
+ (\sqrt{5} - 1) \left\{ b - \frac{b}{2} ( \sqrt{5} - 1) \right\} \sin A\\
+&=&
+\frac{1}{8}
+ (\sqrt{5} - 1) (3 - \sqrt{5}) bc \sin A\\
+&=&
+\frac{1}{4} (4 \sqrt{5} - 8) M = (\sqrt{5} - 2) M.
+\end{eqnarray*}
+$BC'A', CA'B'$ の面積についても同様。
+
+ゆえに、これら 3 つの三角形の和は $3(\sqrt{5} - 2)M$ となって、
+三角形 $A'B'C'$ の面積は $(7 - 3\sqrt{5})M$ である。
+
+Q.E.F.
+
+\subsection*{29.}
+
+これは等式
+\[
+(a^2 + b^2)(c^2 + d^2) = a^2 c^2 + b^2 d^2 + a^2 d^2 + b^2 c^2
+\]
+から導かれる。
+\begin{eqnarray*}
+(a^2 + b^2)(c^2 + d^2) &=& a^2 c^2 + b^2 d^2 + a^2 d^2 + b^2 c^2\\
+              &=& a^2 c^2 + b^2 d^2 + 2acbd + a^2 d^2 + b^2 c^2 - 2adbc\\
+\mbox{または} &=& a^2 c^2 + b^2 d^2 - 2acbd + a^2 d^2 + b^2 c^2 + 2adbc\\
+              &=& (ac + bd)^2 + (ad - bc)^2\\
+\mbox{または} &=&  (ac - bd)^2 + (ad + bc)^2.
+\end{eqnarray*}
+
+ここで、もしこらの最後の 2 つの式が等しいならば、
+$ac + bd$ は $ad + bc$ でなくてはならない。
+なぜなら $ac - bd$ にはなりえない。
+すなわち、
+\[
+a(c - d) - b(c - d) = 0
+\]
+つまり、
+\[
+(a - b)(c - d)  = 0
+\]
+であって、つまり、最初の 2 つの組のどちらかが、
+ 2 つの等しい平方の和である。
+
+ゆえに、逆に言えば、
+もしもとの組のそれぞれが 2 つの異なる平方からなるならば、
+それらの積は二通りの 2 つの平方の和で与えられる。
+
+\subsection*{30.}
+
+[訳者より：ここに図を入れる]
+
+(解析)
+
+$ABC$ を与えられた三角形とし、
+$B'C'$ が 各辺に平行にひいた $B'D, C'E$
+の和が $2B'C'$ になるようにひかれていると仮定する。
+
+ユークリッドの I.34 によって、$B'D = C'B$ かつ $C'E=B'C$ となる。
+\[
+\therefore
+B'C  + C'B = 2B'C'.
+\]
+ゆえに、もし $B'L$ が $B'C$ の半分に等しく切り取られているならば、
+$C'L$ は $C'B$ の半分である。
+
+ゆえに、作図ができる。
+
+(作図)
+
+$BC'$ 上に任意の点 $F$ をとる。
+$FG$ を $BC$ に平行、かつ $BF$ の半分の長さにひき、$BG$ を結ぶ。
+
+同様に、$CB'$ 上に任意の点 $H$ をとり、
+$HK$ を $BC$ に平行、かつ $HC$ の半分の長さにひき、$CK$ を結ぶ。
+
+$BG, CK$ を延長して、交点を $L$ とする。
+$L$ を通って $BC$ に平行に $B'C'$ をひき、
+$B', C'$ から側辺に平行に $B'D, C'E$ をひく。
+
+$\because FG = \frac{1}{2} FB$;
+三角形の相似によって、
+$\therefore C'L = \frac{1}{2} C'B$.
+同様に、$B'L = \frac{1}{2} B'C$ となる。
+
+$\therefore C'B'$ は $C'B, B'C$ の和の半分、つまり、
+$C'B + B'C = 2 B'C'$ である。
+しかし、ユークリッド I.34 によって、
+$C'B = B'D$ かつ $B'C = C'E$ であるから、
+$\therefore B'D + C'E = 2 B'C'$ となる。
+
+Q.E.F.
+
+\subsection*{31.}
+
+7月1日に、懐中時計は 10 時間で置時計に対して 5 分進んだ。
+つまり、一時間あたり $\frac{1}{2}$ 分であり、
+4 時間あたり 2 分進んだ。
+ゆえに、懐中時計で「正午」のとき、
+置時計は「12 時 2 分」を指したことになる。
+つまり、真の時刻が 12 時 5 分のときに、
+置時計は真の時刻よりも 3 分遅かった。
+
+7 月 30 日に、
+懐中時計は 10 時間で置時計に対して 1 分遅れた。
+つまり、3 時間 10 分あたり 19 秒である。
+ゆえに、懐中時計で「12 時 10 分」のとき、
+置時計は「12 時 7 分 19 秒」を指していたことになる。
+つまり、真の時刻が 12 時 5 分のときに、
+置時計は真の時刻よりも 2 分 19 秒早かった。
+
+ゆえに、置時計は 29 日間で真の時刻に対して 5 分 19 秒、
+すなわち 319 秒進む。
+つまり、一日あたり 11 秒であり、
+5分あたり $\frac{11}{24 \times 12}$ 秒である。
+
+ゆえに、真の時間が 5 分進む間に、懐中時計は 5 分 $\frac{11}{288}$ 秒進む。
+
+いま、真の時刻が 7 月 31 日の 12 時 5 分であるとき、
+置時計はそれより「2 分 19 秒 + 11 秒」早く、
+つまり「12 時 $7 \frac{1}{2}$ 分」を指している。
+ゆえに、もし真の時刻で 5 分前に戻すと、
+置時計は 5 分 $\frac{11}{288}$ 秒戻る。
+つまり、
+「12 時 2 分 $29 \frac{277}{288}$ 秒」に戻すことになる。
+
+ゆえに、7 月 31 日に、置時計がこの時刻を指したときが、
+真の正午である。
+
+Q.E.F.
+
+\subsection*{32.}
+
+第 $n$ 項は $n(n+4)$ である。
+$\therefore (n+1)$ 項は
+\[
+(n + 1)(n + 5) = (n+1)\{ (n+2)+3 \}
+= (n+1)(n+2) + 3(n+1).
+\]
+\[
+\therefore
+S_n = \frac{n(n+1)(n+3)}{3} + 3 \frac{n(n+1)}{2} + C;
+\quad \mbox{であって} \quad
+C = 0.
+\]
+\[
+\therefore
+S_n = n(n+1)\left( \frac{n+2}{3} + \frac{3}{2} \right)
+= \frac{n(n+1)(2n+13)}{6}.
+\]
+
+Q.E.F.
+
+また、
+\[
+S_{100} = \frac{100 \cdot 101 \cdot 213}{6}
+= \frac{100 \cdot 101 \cdot 71}{2}
+= \frac{100 \cdot 7171}{2}
+= \frac{717100}{2} = 358550.
+\]
+
+Q.E.F.
+
+\subsection*{33.}
+
+[訳者より：ここに図を入れる]
+
+$DE = x$ とおく。$\therefore BC = 2x$ である。
+
+面積 $= 3x(\sqrt{r^2 - x^2} + \sqrt{r^2 - 4x^2})$ の最大値を求めたい。
+$v = x(\sqrt{r^2 - x^2} + \sqrt{r^2 - 4x^2})$ とおく。
+\[
+\therefore
+\frac{dv}{dx} = \sqrt{r^2 - x^2} + \sqrt{r^2 - 4x^2}
+ - x^2 \left( \frac{1}{\sqrt{r^2 - x^2}} + \frac{4}{\sqrt{r^2 - 4x^2}}
+      \right)
+ = 0;
+\]
+\[
+\therefore
+(r^2 - x^2) \sqrt{r^2 - 4x^2}
++ (r^2 - 4x^2) \sqrt{r^2 - x^2}
+= x^2 (4 \sqrt{r^2 - x^2} + \sqrt{r^2 - 4x^2});
+\]
+\[
+\therefore
+(r^2 - 2 x^2) \sqrt{r^2 - 4x^2}
+= - (r^2 - 8 x^2) \sqrt{r^2 - x^2};
+\]
+\[
+\therefore
+r^4 - 4 (r^2 x^2 + 4 x^4)(r^2 - 4x^2)
+ = (r^4 - 16 r^2 x^2 + 64 x^4)(r^2 - x^2);
+ \]
+\[
+\therefore
+r^6 - 8r^4 x^2 + 20 r^2 x^4 - 16 x^6
+ = r^6 - 17 r^4 x^2 + 80 r^2 x^4 - 64 x^6;
+ \]
+$\therefore, r^6$ を消して、$x^2$ で割れば、
+\[
+48x^4 - 60 r^2 x^2 + 9r^4 = 0;
+\]
+すなわち、
+\[
+16x^4 - 20 r^2 x^2 + 3r^4 = 0;
+\]
+\[
+\therefore
+\frac{x^2}{r^2} = \frac{20 \pm \sqrt{208}}{32}
+ = \frac{5 - \sqrt{13}}{8}.
+ \]
+(ここで、符号のもう一方を考えていないのは、題意に不適だから。)
+
+Q.E.F.
+
+\subsection*{34.}
+
+[訳者より：ここに図を入れる] 
+
+(解析)
+
+$A$ を与えられた点とし、$C$ を与えられた円の中心とする。
+$AC$ を結び、$ABD$ を求める直線とする。
+$B$ から $AC$ に平行に弦 $BE$ をひく。
+このとき、$\angle DBE = \angle A$ である。
+ゆえに、弧 $DE = $ 弧 $BD$ であり、
+つまり、弧 $BE$ は $D$ で二等分される。
+すなわち、$D$ は $C$ からの垂線上にある。
+
+(作図)
+
+[訳者より：ここに図を入れる] 
+
+$AC$ を結ぶ。
+$C$ から $AC$ に垂直に $CD$ をひく。
+$AD$ を結び、円との交点を $B$ とする。
+$B$ から $AC$ に平行に $BE$ をひく。
+
+弧 $BD = $ 弧 $DE$ であることは容易に証明される。
+ゆえに、弧 $BD$ は円周上で、
+角度 $= \angle DBE = \angle A$ を持つ部分を占める。
+
+Q.E.F.
+
+\subsection*{35.}
+
+[訳者より：ここに図を入れる] 
+
+$ABC$ を与えられた三角形とし、
+ 3 つの半径の三角形の外側にある部分が、
+与えられた比 $k: 1, l: 1, m: 1$ になっているものとする。
+(注意： $k, l, m$ は真分数とする。)
+
+$B$ から $BD \perp BA$ かつ $BE \perp BC$
+であるように $BD, BE$ をひく。
+かつ、$BD$ が $BE$ に対して、$1-m: 1-k$ の比を持つようにする。
+$D$ を通って $BA$ に平行に $DF$ を、$BC$ に平行に $EF$ をひき、
+$BF$ を結ぶ。
+$F$ から $FG \perp BA$ かつ $FH \perp BC$ となるよう $FG, FH$ をひく。
+
+このとき、$FG: FH = 1-m: 1-k$ である。
+
+同様にして、$C$ から $CA, CB$ に垂直に直線をひき、
+比 $1-l: 1-k$ の長さを持つようにして、
+$CO$ をひいて $BF$ との交点を $O$ とする。
+
+$O$ から各辺に垂直に $OA', OB', OC'$ をひく。
+
+すると、$OA': OB': OC' = 1-k: 1-l: 1-m$ となる。
+
+$OA'$ を $K$ まで延長して、
+$OK: OA' = 1: 1-k$ となるようにする。
+
+中心 $O$ で半径 $OK$ の円を描き、
+$OB', OC'$ との交点を $L, M$ とする。
+
+ここで、
+\[
+OK: OA' = 1: 1-k;
+\]
+\[
+OA': OB' = 1-k: 1-l;
+\]
+であるから、
+\[
+\therefore
+OK: OB' = 1: 1-l
+\]
+となる。同様にして、$OK: OC' = 1: 1-m$ である。
+
+しかし、$A'K: OK = OK - OA': OK = k: 1$  である。
+
+同様にして、$B'L: \mbox{半径} = l: 1$ となって、
+$C'M: \mbox{半径} = m: 1$ となる。
+
+Q.E.F.
+
+\subsection*{36.}
+
+[訳者より：ここに図を入れる] 
+
+(解析)
+
+$B'C'$ を求める直線とし、
+$C'$ で直角をなしているとする。
+
+$C'B$ と等しくなるように $C'D$ をとると、$DB' = B'C$ である。
+
+$DB, DC$ を結ぶと、$\angle DBC' = 45^\circ$ であり、
+$\angle B'DC = \angle B'CD$ である。
+
+$C$ から $CE \perp AB$ となるよう $E$ をとる。
+
+このとき、$\angle B'DC = \angle DCE$ となり、
+$\therefore \angle B'CD = \angle DCE$ となる。
+
+(作図)
+
+ゆえに以下のように構成できる。
+$CE \perp AB$ をひく。
+$\angle ACE$ を二等分する。
+$B$ において $\angle ABD = 45^\circ$ となる。
+これらの直線は $D$ で交わる。
+$D$ を通って、$B'DC' \perp AB$ をひく。
+
+このとき、$\angle C'DB = \pi - (\angle DC'B + \angle C'BD) = 45^\circ
+= \angle C'BD$ である。
+$\therefore C'D = C'b$ となる。
+
+また、$\angle B'DC = \angle DCE = \angle DCB'$ だから、
+$\therefore DB' = B'C$ であり、
+$\therefore C'B' = BC' + CB'$ となる。
+
+Q.E.F.
+
+(作図可能の条件)
+
+$\angle A$ は $> 90^\circ$ であってはならない。
+
+$\angle B$ は $< 45^\circ$ であってはならない。
+
+$\angle C$ は $A$ の余角の半分より小さくてはならない。
+つまり、$ < (45^\circ - \frac{A}{2})$ であってはならない。
+
+
+\subsection*{37.}
+
+[訳者より：ここに図を入れる]
+
+$BC$ を共通の弦として、$A, D$ を各円の中心とする。
+
+$\angle A = 30^\circ, \angle D = 60^\circ$ とする。
+
+$BC ( = DB = DC) = 1$ とする。
+
+また $AB = x$ とおくと、
+\[
+\cos A = \frac{\sqrt{3}}{2} = \frac{2x^2 - 1}{2 x^2};
+\]
+\[
+\therefore
+\frac{\sqrt{3}}{2} = 1 - \frac{1}{2x^2};
+\quad
+\therefore
+\frac{1}{2x^2} = \frac{2 - \sqrt{3}}{2};
+\]
+\[
+\therefore
+x^2 = \frac{1}{2 - \sqrt{3}} = 2 + \sqrt{3};
+\]
+
+$\therefore$ 円の面積は $\pi (2 + \sqrt{3})$ と $\pi$ である。
+
+$\therefore$ 扇形の面積は $\pi \frac{2 + \sqrt{3}}{12} $
+と $\frac{\pi}{6}$ である。
+
+$\therefore$ その和は $\pi \frac{4 + \sqrt{3}}{12}$ である。
+
+また、三角形 $ABC$ の面積 $= \frac{1}{2}(2 + \sqrt{3}) \frac{1}{2}
+= \frac{2 + \sqrt{3}}{4}$ であり、
+三角形 $DBC$ の面積 $= \frac{\sqrt{3}}{4}$ である。
+
+$\therefore$ その和は $\frac{2 + 2\sqrt{3}}{4} = \frac{1 + \sqrt{3}}{2}$
+となる。
+
+ここで、小さい方の円の大きな方の円に入っている部分の面積は、
+これら 2 つの和の差であるから、
+\[
+\pi \frac{4 + \sqrt{3}}{12} - \frac{1 + \sqrt{3}}{2}
+\]
+となる。
+
+ゆえに、小さい方の円に対するその比は、
+この和を $\pi$ で割ったもので、
+\begin{eqnarray*}
+&=& \frac{4 + \sqrt{3}}{12} - \frac{1 + \sqrt{3}}{2 \pi}\\
+&=& \frac{5.732}{12} - \frac{2.732}{\frac{44}{7}}
+ = .478 - \frac{.248}{\left( \frac{4}{7} \right)}\\
+&=& .478 - \frac{1.736}{4}
+ = .478 - .434 = .044.
+\end{eqnarray*}
+となる。
+
+Q.E.F.
+
+
+\subsection*{38.}
+
+この未知の小石をひく袋、赤い石を二回ひいた袋、
+残りの袋を順にとると、
+袋 $A, B, C$ に対して 6 通りの可能性があることがわかる。
+つまり、
+(1) $ABC$, (2) $ACB$, (3) $BAC$, (4) $BCA$, (5) $CAB$, (6) $CBA$
+である。
+
+ここで、観測された事象の確率は、
+(1) の場合は $1 \times \frac{4}{9} = \frac{4}{9}$ 、
+(2) の場合は $1 \times \frac{1}{9} = \frac{1}{9}$ 、
+(3) の場合は $\frac{2}{3} \times 1 = \frac{2}{3}$ 、
+(4) の場合は $\frac{2}{3} \times \frac{1}{9} = \frac{2}{27}$ 、
+(5) の場合は $\frac{1}{3} \times 1 = \frac{1}{3}$ 、
+(6) の場合は $\frac{1}{3} \times \frac{4}{9} = \frac{4}{27}$
+である。
+
+ゆえに、この $6$ つの状態の存在確率は、
+$12, 3, 18, 2, 9, 4$ に比例する。
+よって、これらの実際の値は、
+$\frac{1}{4},\frac{1}{16},\frac{3}{8},\frac{1}{24},\frac{3}{16},\frac{1}{12}$
+である。
+
+ゆえに、未知の小石が赤である確率は、
+$\frac{1}{4} \times 1, \frac{1}{16} \times 1, 
+\frac{3}{8} \times \frac{2}{3},
+\frac{1}{24} \times \frac{2}{3},
+\frac{3}{16} \times \frac{1}{3},
+\frac{1}{12} \times \frac{1}{3}$
+の和であって、つまり、
+\[
+\frac{36 + 9 + 36 + 4 + 9 + 4}{9 \times 16}
+= \frac{98}{9 \times 16} = \frac{49}{72}
+\]
+である。
+
+Q.E.F.
+
+\subsection*{39.}
+
+日数を $x$ とすると、
+\[
+(2 \times 10 - (x - 1)) \cdot \frac{x}{2}
+ = 14 + \{ 2 \times 2 + (x - 1) \cdot 2 \} \cdot \frac{x}{2};
+ \]
+すなわち、
+\[
+\frac{21 x}{2} - \frac{x^2}{2} = 14 + x + x^2;
+\]
+\[
+\therefore
+3 x^2 - 19x + 28 = 0;
+\quad
+\therefore
+x = \frac{19 \pm 5}{6}
+ = 4 \mbox{ または } \frac{7}{3}.
+ \]
+
+ここで、上の解は歩く速度の増加減少の不連続性については考慮に入れておらず、
+各一日の終わりに上のデータと一致するよう増加減少が連続である仮定のもとでのみ、
+正しい解である。
+ゆえに、「$4$」は正しい答であるが、
+「$\frac{7}{3}$」は出会いが三日目のいつか起こることを示しているだけである。
+この時刻を見つけるために、時間を $y$ とおこう。
+
+ここで、A は二日間で $19$ マイルの終わりに到着し、
+B は $(14 + 6)$ つまり $20$ マイルの終わりに到着する。
+\[
+\therefore
+ 19 + y \cdot \frac{8}{12} = 20 + y \cdot \frac{6}{12}
+ \]
+すなわち、
+\[
+y \cdot \frac{2}{3} = 1 + y \cdot \frac{1}{2};
+\quad
+\therefore
+y = 6.
+\]
+ゆえに、彼等は二日間のあと $6$ 時間歩いたあとと、
+$4$ 日目の終わりに出会う。
+そのときの距離は $23$ マイルと $34$ マイルである。
+
+Q.E.F.
+
+\subsection*{40.}
+
+(1)
+
+[訳者より：ここに図を入れる] 
+
+$ABC$ を与えられた三角形とし、$AD$ を頂点からの直線とする。
+
+$D$ から $DE, DF$ を側辺に平行にひき、
+$E$ と $F$ から $EG, FH$ を $BC$ に垂直にひく。
+
+このとき、三角形 $FBD, EDC$ は $ABC$ に相似。
+
+\[
+\therefore
+FH: AD = BD : BC
+\quad \mbox{また} \quad
+EG: AD = DC: BC
+\]
+である。
+\[
+\therefore
+(FH + EG) : AD = BC: BC;
+\]
+\[
+\therefore
+FH + EG = AD
+\]
+となる。
+
+また、三角形 $AED, AFD$ は等しく、$AD$ と同じ底辺を持つ。
+$\therefore$
+それらの高さは等しく、$DH = DG$ である。
+
+Q.E.F.
+
+(2)
+
+[訳者より：ここに図を入れる] 
+
+$ABC$ を与えられた三角形とし、$AD$ を頂点からの直線とする。
+
+$CE = BC$ とし、$E$ から $EF, EG$ を側辺に平行にひき、
+$F, G$  から $FH, GK$ を $BC$ に垂直にひく。
+
+このとき三角形 $GBE, FEC$ は $ABC$ に相似。
+\[
+\therefore
+GK : AD = BE : BC;
+\quad \mbox{また} \quad
+FH : AD = EC : BC;
+\]
+\[
+\therefore
+(GK + FH) : AD = BC : BC;
+\]
+\[
+\therefore
+GK + FH = AD;
+\]
+また、
+\[
+BK : BE = BD : BC;
+\]
+\[
+\therefore
+BK : DC = EC : BC = HC : DC;
+\]
+\[
+\therefore
+BK = HC.
+\]
+
+Q.E.F.
+
+
+
+\subsection*{41.}
+
+(1)
+
+最初に袋の中には少なくとも 1 つは $W$ が確かにあるので、
+袋の中の様々な状態の「先験的な」確率は、
+$WWWW, WWWB, WWBB, WBBB$ に対し、
+$\frac{1}{8},\frac{3}{8},\frac{3}{8},\frac{1}{8}$
+である。
+
+これらは、観測された事象に対して、
+確率 $1, \frac{1}{2}, \frac{1}{6}, 0$ を与える。
+
+ゆえに事象のあとの確率は、それぞれの状態に対して、
+$\frac{1}{8} \cdot 1, \frac{3}{8} \cdot \frac{1}{2},
+\frac{3}{8} \cdot \frac{1}{6}$
+すなわち $\frac{1}{8}, \frac{3}{16}, \frac{1}{16}$ 
+つまり $2, 3, 1$ に比例する。
+ゆえにこれらの実際の値は $\frac{1}{3}, \frac{1}{2}, \frac{1}{6}$ 
+である。
+
+ゆえに、今 $W$ をひく確率は、
+$\frac{1}{3} \cdot 1 + \frac{1}{2} \cdot \frac{1}{2}$
+であって、つまり、$\frac{7}{12}$ である。
+
+(2)
+
+もし前もって言われなかったならば、
+状態 $WWWW, WWWB, WWBB, WBBB, BBBB$ の「先験的な」確率は、
+$\frac{1, 4, 6, 4, 1}{16}$ だっただろう。
+
+これらが観測された事象に与える確率は
+$1, \frac{1}{2}, \frac{1}{6}, 0, 0$である。
+
+ゆえに、事象のあと、これらの状態に対する確率は、
+$\frac{1}{16} \cdot 1, \frac{1}{4} \cdot \frac{1}{2},
+\frac{1}{6} \cdot \frac{3}{8}$
+すなわち、
+$1, 2, 1$ に比例する。
+よって、実際の値は $\frac{1}{4}, \frac{1}{2}, \frac{1}{4}$
+である。
+
+ゆえに、今 $W$ をひく確率は、
+$\frac{1}{4} \cdot 1 + \frac{1}{2} \cdot \frac{1}{2}$
+であって、つまり、$\frac{1}{2}$ である。
+
+Q.E.F.
+
+\subsection*{42.}
+
+[訳者より：ここに図を入れる]
+
+$ABC$ を与えられた三角形とする。
+その角の二等分線をひき、それらに垂直な直線によって、
+三角形 $A'B'C'$ を作る。
+
+ここで、$\angle CBA' = 90^\circ - \frac{B}{2}$ となり、
+他の角度も同様である。
+\[
+\therefore
+A' = 180^\circ - (CBA' + BCA') = \frac{B+C}{2} = 90^\circ - \frac{A}{2};
+\]
+\[
+\therefore
+BA' = a \cdot \frac{\cos \frac{C}{2}}{\cos \frac{A}{2}}.
+\]
+同様にして、
+\[
+BC' = c \cdot \frac{\cos \frac{A}{2}}{\cos \frac{C}{2}};
+\]
+\begin{eqnarray*}
+\therefore
+A'C' &=& \frac{a \cos^2 \frac{C}{2} + c \cos^2 \frac{A}{2}}{\cos \frac{A}{2} \cos \frac{C}{2}}
+= \frac{a \frac{s(s-c)}{ab} + c \frac{s(s-a)}{bc}}{\frac{s}{b} \sqrt{\frac{(s-a)(s-c)}{ac}}}\\
+&=& \frac{s -c + s -a}{\sin \frac{B}{2}}
+= \frac{b}{\sin \frac{B}{2}}.
+\end{eqnarray*}
+同様に、
+\[
+A'B' = \frac{c}{\sin \frac{C}{2}};
+\]
+\[
+A'B'C' \mbox{の面積} = 
+\frac{bc \cos \frac{A}{2}}{2 \sin \frac{B}{2} \sin \frac{C}{2}};
+\]
+\begin{eqnarray*}
+\frac{A'B'C' \mbox{の面積}}{ABC \mbox{の面積}}
+&=&
+ \frac{bc \cos \frac{A}{2}}{2 \sin \frac{B}{2} \frac{C}{2}}
+  \frac{2}{bc \sin A}\\
+&=&
+ \frac{\cos \frac{A}{2}}{\sin \frac{B}{2} \sin \frac{C}{2} 2 \sin \frac{A}{2} \cos \frac{A}{2}}\\
+&=&
+ \frac{1}{2 \sin \frac{A}{2} \frac{B}{2} \frac{C}{2}}\\
+&=&
+\frac{abc}{2(s - a)(s - b)(s - c)}.
+\end{eqnarray*}
+
+Q.E.F.
+
+
+\subsection*{43.}
+
+[訳者より：ここに図を入れる] 
+
+$ABC$ を与えられた三角形とする。
+$BFD, CFE$ を求める直線、つまり、
+$FB=FC$ で四角形 $AEFD$ の面積が三角形 $FBC$
+に等しくなるような直線とする。
+$FBC$ の角度を $\theta$  とおく。
+この角度を計算できれば十分。
+
+三角形 $FBC$ と四角形 $AEFD$ の面積は等しいから、
+\begin{eqnarray*}
+\mbox{三角形 $DBC$ の面積}
+&=& 
+\mbox{三角形 $AEC$ の面積}\\
+&=&
+\mbox{三角形 $ABC$ の面積} - \mbox{三角形 $EBC$ の面積};
+\end{eqnarray*}
+
+ゆえに、三角形 $DBC, EBC$ の面積の和は、
+三角形 $ABC$ の面積に等しい。
+
+\[
+\therefore
+\frac{1}{2} \frac{a^2}{\cot \theta + \cot C}
++ \frac{1}{2} \frac{a^2}{\cot \theta + \cot B}
+= \frac{1}{2} \frac{a^2}{\cot B + \cot C};
+\]
+\[
+\therefore
+\frac{1}{\cot \theta + \cot C}
++ \frac{1}{\cot \theta + \cot B}
+= \frac{1}{\cot B + \cot C};
+\]
+\[
+\therefore
+\frac{2 \cot \theta + (\cot B + \cot C)}
+{\cot^2 \theta + \cot \theta(\cot B + \cot C) + \cot B \cot C}
+= \mbox{同上};
+\]
+\begin{eqnarray*}
+\therefore
+\lefteqn{\cot^2 \theta + \cot \theta (\cot B + \cot C) + \cot B \cot C}\\
+ &=&
+ 2 \cot \theta ( \cot B + \cot C) + (\cot B + \cot C)^2;
+\end{eqnarray*}
+\begin{eqnarray*}
+\therefore
+\lefteqn{\cot^2 \theta - \cot \theta (\cot B + \cot C)}\\
+ &-&
+ ( \cot^2 B + \cot B \cot C+ \cot^2 C ) = 0;
+\end{eqnarray*}
+\begin{eqnarray*}
+\therefore
+\lefteqn{\cot \theta = \{ \cot B + \cot C}\\
+ &\pm&
+ \sqrt{ ( 5 \cot^2 B + 6 \cot B \cot C+ 5 \cot^2 C )} \}.
+\end{eqnarray*}
+
+Q.E.F.
+
+
+\subsection*{44.}
+
+$k$ を $2$ も $5$ も素因子として含まない数、
+すなわち $10$ と互いに素な数とする。
+このとき、もし $\frac{1}{k}$ が循環小数と、
+そして分数の形に書くならば、
+分母の数字は一定の個数 $9$ を並べたもの、
+つまり $(10^n - 1)$ の形になるだろう。
+
+そして、この分数 $= \frac{1}{k}$ であり、
+ $k$ は $10$ と互いに素であって、ゆえに $10^m$ にも素だから、
+因子 $(10^n - 1)$ は $k$ の倍数でなくてはならない。
+
+これは明らかに他の基数についてもうまくいく。
+ゆえに、もし $a$ がある基数で、$b$ を $a$ に素な数ならば、
+ある $n$ を見つけて、$(a^n - 1)$ が $b$ の倍数であるようにできる。
+
+Q.E.D.
+
+(訳注： この説明はかなり分かり難いが、原文通りに訳しておく。
+キャロル自身も分かり難いと思ったのか、以下の例を与えていて、
+これを見ると上の議論の意味が分かる。)
+
+
+例(暗算で考えたわけではないが)
+
+(1)
+基数を $10$ として、$(10^n - 1)$ が $7$ の倍数になるような
+$n$ を見つける。
+\[
+\frac{1}{7} = 0. \dot{1} 4285 \dot{7}
+= \frac{142857}{10^6 - 1}.
+\quad \mbox{答： $n = 6$}.
+\]
+
+(2)
+$8, 9$ が与えられたとする。
+$8$ を基数にとって、
+\[
+\frac{1}{9} = 0. \dot{0} \dot{7} = \frac{7}{8^2 - 1}.
+\quad \mbox{答： $n = 2$}.
+\]
+
+(3)
+$7, 13$ が与えられたとする。
+$7$ を基数にとって、
+\[
+\frac{1}{13} = 0. \dot{0} 3524563142 \dot{1}
+= \frac{35245631421}{7^{12} - 1}.
+\quad \mbox{答： $n = 12$}.
+\]
+
+\subsection*{45.}
+
+棒のそれぞれを $(n + 1)$ の部分に分ける。
+ここで、$n$ は奇数とし、この $n$ 個の分点でのみ、
+棒が折れて、その折れ易さはどこも等しいとする。
+
+ 1 つの失敗の確率は、$\frac{n-1}{n}$ である。
+
+$\therefore$ $n$ 本とも失敗する確率は
+$\left(\frac{n-1}{n}\right)^n$ 
+= $\left(1 - \frac{1}{n}\right)^n$ 
+である。
+
+ここで、$m = \frac{1}{n}$ とおく。
+$n = \frac{1}{0}$ のときは $m = 0$ である。
+
+$\therefore$
+真ん中でどの棒も折れない確率は $m = 0$ のときの
+$= (1 - m)^{\frac{1}{m}}$ である。
+
+すなわち、これは極限 $(1 - 0)^\frac{1}{0}$ に近づく。
+
+そして答は、$ = 1 - (1 - 0)^\frac{1}{0}$ である。
+
+そして、$(1 + 0)^\frac{1}{0} = e$ である。
+ゆえにもし、$a$ の級数の中で、奇数項の和を $d$,
+偶数項の和を $b$ と呼ぶことにすると、
+$e = a + b$ であり、$(1 - 0)^\frac{1}{0} = a - b = 2a - e$
+となる。
+
+Q.E.F.
+
+[注意: 以下は全部暗算だけで得たわけではないが]
+
+ここで、
+\[
+a = 1 + \frac{1}{2!} + \frac{1}{4!} + \cdots
+\]
+であり、
+\begin{eqnarray*}
+1 &=& 1\\
+\frac{1}{2!} &=& 0.5\\
+\frac{1}{4!} &=& 0.04166666 \cdots\\
+\frac{1}{6!} &=& 0.00138888 \cdots\\
+\frac{1}{8!} &=& 0.00002488 \cdots\\
+\frac{1}{10!} &=& 0.00000088 \cdots\\
+\end{eqnarray*}
+\[
+\therefore
+a = 1.5430806\cdots
+\]
+\[
+\therefore
+2a = 3.0861612\cdots
+\]
+\[
+e = 2.7182818 \cdots
+\]
+\[
+\therefore
+(1 - 0)^\frac{1}{0} = 0.3678793\cdots
+\]
+\[
+\therefore
+\mbox{答} = 1 - (1 - 0)^\frac{1}{0} = 0.6321207 \cdots
+\]
+
+[訳注：$0$ と極限の扱いについて厳密でない他にも、
+この確率の議論は根本的におかしい。
+実際、この論法によれば、求める確率はどんな値にでもできる。
+棒の折れる場所ではなくて離散的な $n$ 個のものについてならば、
+上の議論は正しいが、連続的な状況へは適用できない。
+キャロルの時代には、
+連続的な状況、または無限が登場する状況で、
+確率を正しく扱う枠組みがまだ知られていなかった。
+問題 58 とその解答、および訳注も参照のこと。]
+
+
+\subsection*{46.}
+
+[訳者より：ここに図を入れる] 
+
+$ABC$ を与えられた三角形、$D$ を与えられた点とする。
+
+もし、三角形 $D'E'F'$ を、
+与えられた角度とそれぞれの角度が等しくなるように、
+かつ、$D'$  が与えられた頂点となるように作ったならば、
+$ABC$ に相似な三角形をこの $D'E'F'$ に外接させれば、
+問題は解決する。
+
+ここで、$E'F', F'D', D'E'$ を弦として角 $A, B, C$ が円周角になるよう
+ 3 つの円を描く。
+ゆえに、これらの円の中に、$BDC$ と同じ比を持つように
+分割した直線 $B'D'C'$ をおければ、問題は解決する。
+
+この補題は以下のように解ける。
+
+[訳者より：ここに図を入れる] 
+
+$G, H$ を 2 つの円の中心とする。
+$GH$ を結び、$BDC$ と同じ比に $K$ で分割する。
+
+$KD'$ を結び、$D'$ を通って $KD$ に垂直に $B'D'C'$ をひく。
+また、$G, H$ から $B'C'$ に垂直に $GL, HM$ をひく。
+
+ここで、
+\[
+LD' : D'M = GK : KH = BD : DC
+\]
+であることが容易に証明されるが、
+$B'D', D'C'$ は $LD', D'M$ の二倍の長さだから、
+\[
+\therefore
+B'D' : D'C' = BD " DC
+\]
+である。
+
+Q.E.F.
+
+[作図はもはや明らかである。
+つまり、$B'F', C'E'$ を結び、延長して交点を作り、
+(容易に証明されるように)この $A'$ を通る三番目の円を描く。
+$AB, AC$ が $F, E$ で $A'F'B', A'E'C'$ と同じ比で分割し、
+$DE, DF$ を結ぶ。]
+
+\subsection*{47.}
+
+少し調べれば、$0, 0, 0$ が 1 つの値の組であることが分かる。
+方程式の差をとって、
+\[
+x \left( \frac{1}{y} - \frac{1}{z} \right) = y - z
+\]
+となる。
+
+$y = z$ でない限り、$x = yz \cdot \frac{y-z}{z-y} = -yz$
+であり、$y = z$ のときは $x = \frac{0}{0}$ である。
+
+ここで、(1) より $x = xy - yz$ である。
+
+$\therefore$ $y =neq z$ のとき、$x = xy + x$ である。
+
+$\therefore$ $x$ が無限大でない限り、$xy = 0$ である。
+
+同様に、(2) より、$x$ が無限大でない限り、$xz = 0$ である。
+
+ゆえに、もし $x$ が有限ならば、
+そして、$y =neq z$ ならば、
+$x$ か $y$ が $0$ であり、
+かつ $x$ か $z$ が $0$ である。
+すなわち、$x = 0$ であるか、$y = z = 0$ である。
+しかし、この後者は仮定から除かれる。
+ゆえに $x = 0$ である。
+ゆえに、$yz = 0$ であり、
+すなわち、$y$ か $z$ が $0$ であり、
+もう一方は任意の値をとりうる。
+
+これは値のもう 2 つの組を与える。つまり、
+\[
+x = y = 0 \quad \mbox{ で $z$ は任意の値};
+\]
+\[
+x = z = 0 \quad \mbox{ で $y$ は任意の値};
+\]
+である。
+
+次に、$y = z$ のとき、何が起こるかを確かめなくてはならない。
+
+(1) によって、
+\[
+\frac{x}{y} = x - y
+\]
+であるから、
+\[
+\therefore
+y^2 = x ( y - 1);
+\mbox{すなわち} x = \frac{y^2}{y - 1}.
+\]
+同様に、(2) より、$x = \frac{z^2}{z - 1}$ である。
+
+これによって値の第 4 の組、
+$k$ を任意の値として
+$x = \frac{k^2}{k-1}, y = z = k$ が得られる。
+
+ここで、$y$ と $z$ は明らかに任意の実数値をとりうるが、
+$x$ は方程式
+\[
+y^2 - xy + x = 0
+\]
+によって制限され、
+ここで $y$ は $x^2 - 4x > 0$ でない限り実数にはなりえない。
+ゆえに、$x$ は任意の負の値と $4$ より小さくない任意の正の値をとりうる。
+しかし、$4$ より小さい任意の正の値は、
+$y$ を非実数の値にしない限りとれない。
+
+Q.E.F.
+
+[訳注： $0, 0, 0$ が解の 1 つであるとしているところなど、
+$0$ の扱いは現代的立場からすれば奇妙ではあるが、適切に解釈できる。]
+
+
+\subsection*{48.}
+
+[訳者より：ここに図を入れる] 
+
+$ABC$ を与えられた三角形とし、$A', B', C'$ を半円の中心、
+$DE, FG, HJ$ を共通接線とし、
+$DE = \alpha, FG = \beta, HJ = \gamma$ とする。
+
+$B'D, C'E$ を結び、$C'$ から $B'D$ と垂直に $C'K$ をひく。
+ゆえに、$C'K = \alpha$ である。
+
+与えられた三角形の各辺を $2a, 2b, 2c$ とする。
+
+このとき、$B'C' = a, B'K = b - c$ である。
+\[
+\therefore
+C'K = \sqrt{a^2 - (b - c)^2};
+\]
+すなわち、
+\[
+\alpha = \sqrt{(a - b + c)(a + b - c)}
+\]
+となり、同様に、
+\[
+\beta = \sqrt{(a + b - c)(-a + b + c)},
+\]
+\[
+\gamma = \sqrt{(-a + b + c)(a - b + c)}
+\]
+である。
+\[
+\therefore
+\frac{\beta \gamma}{\alpha} = - a + b + c
+\]
+となり、同様に、
+\[
+\frac{\gamma \alpha }{\beta} = a - b + c,
+\]
+\[
+\frac{\alpha \beta}{\gamma} = a + b - c.
+\]
+よって、
+\[
+\mbox{これらの和} = a + b + c
+= \mbox{$ABC$ の半周の長さ}
+\]
+である。
+
+Q.E.D.
+
+\subsection*{49.}
+
+三角形の 1 つの一辺を単位にとる。
+
+もし四面体が斜辺の 1 つを含む垂直な平面で切ったとすると、
+その切り口は底辺が $\frac{\sqrt{3}}{2}$ で、
+側辺が $\frac{\sqrt{3}}{2}, 1$ の三角形である。
+
+ゆえに、小さい方の底角の余弦は
+\[
+= \left( \frac{3}{4} + 1 - \frac{3}{4} \right)
+\cdot \frac{1}{\sqrt{3}}
+= \frac{1}{\sqrt{3}}
+\]
+である。
+
+$\therefore$ その正弦は $= \frac{\sqrt{2}}{\sqrt{3}} = $ その高さであり、
+これは四面体の高さになる。
+\[
+\therefore
+\mbox{四面体の体積}
+= \frac{1}{3} \cdot \frac{\sqrt{2}}{\sqrt{3}}
+ \cdot \frac{\sqrt{3}}{4} = \frac{\sqrt{2}}{12}.
+\]
+また、ピラミッドの高さは、底辺が $\sqrt{2}$ で側辺が $1, 1$
+の三角形の高さに等しい。
+
+すなわち、これは $\frac{\sqrt{2}}{2}$ となる。
+
+\[
+\therefore
+\mbox{ピラミッドの体積}
+= \frac{1}{3} \cdot \frac{\sqrt{2}}{2} = \frac{\sqrt{2}}{6}
+\]
+となる。
+
+ゆえに、求める比
+\[
+= \frac{\sqrt{2}}{6} \cdot \frac{12}{\sqrt{2}} = 2
+\]
+となる。
+
+Q.E.F.
+
+\subsection*{50.}
+
+まず、袋 $H$ が、
+\begin{itemize}
+\item[] 2 つの白を含む確率は $\frac{1}{4}$
+\item[] 1 つの白と 1 つの黒を含む確率は $\frac{1}{2}$
+\item[] 2 つの黒を含む確率は $1$
+\end{itemize}
+である。
+
+$\therefore$ 1 つ白石を加えたあとで袋が、
+\begin{itemize}
+\item[] 3 つの白を含む確率は $\frac{1}{4}$
+\item[] 2 つの白と 1 つの黒を含む確率は $\frac{1}{2}$
+\item[] 1 つの白と 2 つの黒を含む確率は $\frac{1}{4}$
+\end{itemize}
+である。
+
+ゆえに、そこから白石をひく確率は、
+\[
+\frac{1}{4} \times 1 + \frac{1}{2} \times \frac{2}{3}
+ + \frac{1}{4} \times \frac{1}{3},
+ \quad \mbox{つまり} \frac{2}{3}
+\]
+である。
+
+$\therefore$ 黒石をひく確率は $\frac{1}{3}$ である。
+
+この石を(色を見ずに)袋 $K$ に移した後、
+袋が
+\begin{itemize}
+\item[]
+3 つの白を含む確率は $\frac{2}{3} \times \frac{1}{4}$; すなわち $\frac{1}{5}$.
+\item[]
+2 つの白と 1 つの黒を含む確率は
+$\frac{2}{3} \times \frac{1}{2} + \frac{1}{3} \times \frac{1}{4}$;
+すなわち $\frac{5}{12}$.
+\item[]
+1 つの白と 2 つの黒を含む確率は
+$\frac{2}{3} \times \frac{1}{4} + \frac{1}{3} \times \frac{1}{2}$;
+すなわち $\frac{1}{3}$.
+\item[]
+3 つの黒を含む確率は $\frac{1}{3} \times \frac{1}{4}$;
+すなわち $\frac{1}{12}$.
+\end{itemize}
+
+$\therefore$ ここから白石をひく確率は、
+\[
+\frac{1}{6} \times 1 + \frac{5}{12} \times \frac{2}{3}
+ + \frac{1}{3} \times \frac{1}{3},
+ \quad \mbox{つまり} \frac{5}{9}
+\]
+である。
+
+$\therefore$ 黒石をひく確率は $\frac{4}{9}$ である。
+
+これを袋 $H$ へ移す前、袋 $H$ が、
+\begin{itemize}
+\item[]
+2 つの白を含む確率は
+$\frac{1}{4} \times 1 + \frac{1}{2} \times \frac{1}{3}$;
+すなわち $\frac{5}{12}$.
+\item[]
+1 つの白と 1 つの黒を含む確率は
+$\frac{1}{2} \times \frac{2}{3} + \frac{1}{4} \times \frac{2}{3}$;
+すなわち $\frac{1}{2}$.
+\item[]
+2 つの黒を含む確率は $\frac{1}{4} \times \frac{1}{3}$;
+すなわち $\frac{1}{12}$.
+\end{itemize}
+
+これを移した後、袋 $H$ が
+\begin{itemize}
+\item[]
+3 つの白を含む確率は $\frac{5}{12} \times \frac{5}{9}$;
+すなわち $\frac{25}{108}$.
+\item[]
+2 つの白と 1 つの黒を含む確率は
+$\frac{5}{12} \times \frac{4}{9} + \frac{1}{2} \times \frac{5}{9}$;
+すなわち $\frac{50}{108}$.
+\item[]
+1 つの白と 2 つの黒を含む確率は
+$\frac{1}{2} \times \frac{4}{9} + \frac{1}{12} \times \frac{5}{9}$;
+すなわち $\frac{29}{108}$.
+\item[]
+3 つの黒を含む確率は $\frac{1}{12} \times \frac{4}{9}$;
+すなわち $\frac{4}{108}$.
+\end{itemize}
+
+ゆえに白石をひく確率は、
+\[
+\frac{1}{108} \times
+\left\{ 25 \times 1 + 50 \times \frac{2}{3} + 29 \times \frac{1}{3}
+\right\}
+; \mbox{すなわち} \frac{17}{27}
+\]
+となる。
+
+すなわち、これが起こるオッズは $10$ に対し $17$ である。
+
+\subsection*{51.}
+
+[訳者より：ここに図を入れる] 
+
+$ABC$ を与えられた三角形とし、$D$ を与えられた点とする。
+
+(解析)
+
+$DE$ を求める直線とする。
+$DE, EG$ を底辺に垂直にひく。
+このとき、これらの和は $DE$ に等しい。
+
+$DE$ を $H$ で二等分して、底辺に垂直に $HK$ をひく。
+このとき、$HK$ が $DF, EG$ の算術平均で、
+それらの和の半分、つまり $DE$ の長さの半分であることは明らか。
+ゆえに、$H$ を中心、$HD$ を距離に円を描くと、
+$E, K$ を通り、$K$ において底辺に接する。
+
+$H$ を通って、$AC$ に平行に $LHM$ をひく。
+このとき $DA$ は明らかに $L$ で二等分される。
+また $LM$ は円の中心を通る。
+ゆえに、もし $DN$ を $LM$ (または $CA$)に垂直にひくならば、
+これは円の弦となり、$R$ で二等分される。
+$ND$ を延長して、底辺の延長との交点を $S$ とする。
+ゆえに、$SDN$ は円を切り取り、
+$SK$ は $K$ でこれと接する。
+しかし、$S$ と、そして次に $SK$ は、
+$SK$ の平方が $SD, SN$ の積に等しいようにとられていることが分かる。
+
+(作図)
+
+$D$ から $AC$ に垂直に $DN$ をひき、
+その延長が底辺の延長と交わる点を $S$ とする。
+$SK$ を、その平方が $SD, SN$ の積に等しくなるようにとる。
+
+$DA$ を点 $L$ で二等分し、
+$L$ から $AC$ に平行に $LM$ をひく。
+$K$ から底辺に垂直に $KH$ をひき、
+$LM$ との交点を $H$ とする。
+$DH$ を結び、延長して $AC$ との交点を $E$ とし、
+$DF, EG$ を底辺に垂直にひく。
+
+$DL = LA$ であり、$LM$ は $AC$ に平行だから、
+\[
+\therefore
+DH = HE = HK;
+\quad \therefore DE = 2 HK.
+\]
+しかし、
+\[
+DF + EG = 2 HK;
+\quad \therefore DF + EG = DE.
+\]
+
+Q.E.F.
+
+[注意：
+この証明は不完全である。
+私は、証明抜きで、$DH = HK$ であることを仮定していた。
+これはこのように証明できる。
+$SK$ の平方は $SD, SN$ の積だから、
+$\therefore DN$ は $K$ で底辺に接する円の弦である。
+$\therefore LM$ は、直角にこれを二等分し、
+円の中心を通る。
+しかし、$KH$ もまた中心を通る。
+$\therefore H$ は中心である。
+$\therefore HD = HK$.]
+
+\subsection*{52.}
+
+$x$ を最初に各人が持っていた金額とする。
+
+3 番が $x$ を受け取り、$(2 + 4)$ を取り出し、
+$\frac{x}{2}$ を追加する。
+これによって、袋は $(x \cdot \frac{3}{2} - 6)$ 入っていることになる。
+$\frac{2}{3}$ を $a$ と書くことにしよう。
+
+5 蕃が $(xa - 6)$ 受け取って、$(4 + 1)$ を取り出し、
+受け取った額の $a$ 倍が袋の中身になるようにする。
+よって、今、袋には $(xa^2 - 6a - 5)$ 個入っていることになる。
+
+2蕃が $(1 + 3)$ を取り出し、$(xa^3 - 6 a^2 - 5a - 4)$
+を手渡す。
+
+4蕃が $(3 + 5)$ を取り出し、
+$(xa^4 - 6a^3 - 5a^2 - 4a -8)$ を手渡す。
+
+1蕃が $2$ 入れる。ここで袋には $5x$ 入っている。
+
+ゆえに、
+\[
+xa^4 - 6a^3 - 5a^2 - 4a -6 = 5x;
+\]
+\begin{eqnarray*}
+\therefore
+x &=& \frac{6a^3 + 5a^2 + 4a + 6}{a^4 - 5}\\
+&=&
+\frac{(6\cdot 3^3 + 5\cdot 3^2 \cdot 2 + 4 \cdot 3 \cdot 2^2 + 6 \cdot 2^3) \cdot 2}{3^4 - 5\cdot 2^4}\\
+&=&
+\frac{(162 + 90 + 48 + 48)\cdot 2}{81 - 80}
+= 696
+\end{eqnarray*}
+となって、答は $696$ ペンス、つまり $2$ ポンド $18$ シリング。
+
+Q.E.F.
+
+\subsection*{53.}
+
+[訳者より：ここに図を入れる] 
+
+$ABC$ を与えられた三角形、$P$ を与えられた点とし、
+三辺の座標を $\alpha, \beta, \gamma$ とする。
+
+$P$ から各辺に垂直に $PA', PB', PC'$ をひく。
+この長さが $\alpha, \beta, \gamma$ に等しい。
+$PA'$ と $PC'$ を延長して、
+$A'A'' = PA', C'C'' = PC'$ となる点を $A'', C''$ とする。
+$C''$ から $AC$ に垂直に $C''D$ をひき、
+これを延長して、$DE = C''D$ となる点を $E$ とする。
+$EA''$ を結び、
+$AC$ との交点を $R$ とし、$BC$ との交点を $S$ とする。
+$C''R$ を結び、$AB$ との交点を $Q$ とする。
+$PQ, PS$ を結ぶ。
+
+玉の経路は明らかに $PQRSP$ である。
+そして我々の目的は $AR$ の長さを求めることである。
+
+ここで、$AR = DR + AD = DR + AB' - DB'$ である。
+
+まず、$DR$ を計算する。
+
+$P$ から $PU, PV$ を $AB, AC$ に平行にひき、
+$C'$ から $PV$ に平行に $C'W$ をひき、
+$A''$ から $AC$ に垂直に $A''F$ をひく。
+
+三角形の相似によって、
+$DR : RF = DE : A''F = C''D : A''F$ である。
+\[
+\therefore
+DR : DF = C''D : (C''D + A''F);
+\]
+\[
+\therefore
+DR = \frac{DF \cdot C''D}{C''D + A''F}.
+\]
+ここで、$\angle C'VP = A$ であるから、
+$\therefore \angle C'PV = 90^\circ - A;$
+\[
+\therefore
+WP = \gamma \sin A;
+\]
+\[
+DB' = 2 WP = 2 \gamma \sin A.
+\]
+同様にして、$B'F = 2a \sin C;$
+\[
+\therefore
+DF = 2(\alpha \sin C + \gamma \sin A).
+\]
+再び、$C'W = \gamma \cos A$ だから、
+\[
+\therefore
+C''D = 2C'W + PB' = 2 \gamma \cos A + \beta.
+\]
+同様に、$A''F = 2 \alpha \cos C + \beta$;
+\[
+\therefore
+C''D + A''F = 2(\alpha \cos C + \gamma \cos A + \beta);
+\]
+\[
+\therefore
+DR = \frac{(\alpha \sin C + \gamma \sin A)(2\gamma \cos A + \beta)}{\alpha \cos C + \gamma \cos A + \beta}.
+\]
+ここで、
+\begin{eqnarray*}
+AB'
+&=& B'U + UA = B'U + PV\\
+&=& \beta \cot A + \gamma \, {\rm cosec} A
+ = \frac{\beta \cos A + \gamma}{\sin A};
+\end{eqnarray*}
+\begin{eqnarray*}
+\therefore
+AB' - DB'
+&=& \frac{\beta \cos A + \gamma}{\sin A} - 2\gamma \sin A\\
+&=& \frac{\beta \cos A + \gamma(1 - 2 \sin^2 A)}{\sin A}\\
+&=& \frac{\beta \cos A + \gamma \cos 2A)}{\sin A}
+\end{eqnarray*}
+
+ここで、$AR = DR + AB' - DB'$;
+\[
+\therefore
+AR = \frac{(\alpha \sin C + \gamma \sin A)(2 \gamma \cos A + \beta)}{\alpha \cos C + \gamma \cos A + \beta}
++ \frac{\beta \cos A + \gamma \cos 2A}{\sin A}.
+\]
+
+Q.E.F.
+
+\subsection*{54.}
+
+[訳者より：ここに図を入れる] 
+
+三角形 $ADE$ が $ABC$ に相似であることは明らか。
+$k$ を比、
+\[
+\frac{DE}{a} = \frac{AE}{b} = \frac{AD}{c}
+\]
+とする。
+
+ここで、$DG = DE$ であり、ゆえに $\therefore DG = ka$ である。
+\[
+\therefore
+GB = c - ka - kc;
+\]
+\[
+\therefore
+\frac{GB}{c} = 1 - k - k \cdot \frac{a}{c};
+\]
+\[
+\therefore
+GF \left( = GB \cdot \frac{b}{c} \right) = b - kb - k \cdot \frac{ab}{c}.
+\]
+しかし、$GF = DE = ka$ であるから、
+\[
+\therefore
+b - kb - k \cdot \frac{ab}{c} = ka;
+\]
+\[
+\therefore
+bc - k(bc + ca + ab);
+\]
+\[
+\therefore
+k = \frac{bc}{bc + ca + ab}
+ = \frac{\frac{1}{a}}{\frac{1}{a} + \frac{1}{c} + \frac{1}{c}}
+ = \frac{\frac{1}{a}}{m}
+ \quad \mbox{とおく}
+\]
+ゆえに、
+\[
+AD = \frac{c \cdot \frac{1}{a}}{m};
+\quad
+DG = \frac{1}{m} = \frac{c \cdot \frac{1}{c}}{m}.
+\]
+\[
+\therefore
+GB ( = c - AD - DG)
+ = \frac{c \left( m - \frac{1}{a} - \frac{1}{c} \right)}{m}
+  = \frac{c \cdot \frac{1}{b}}{m};
+\]
+\[
+\therefore
+AD : DG : GB = \frac{1}{a} : \frac{1}{c} : \frac{1}{b}.
+\]
+また、
+\[
+DE = ka = \frac{1}{m} = \frac{1}{\frac{1}{a} + \frac{1}{b} + \frac{1}{c}}.
+\]
+
+Q.E.F.
+
+
+\subsection*{55.}
+
+[訳者より：ここに図を入れる] 
+
+$A, B, C$ を塔の底面の中心とし、
+$a, b, c$ をそれらの半径とする。
+$P$ を求める点として、
+$P$ から各円に対して接線の対と、
+各円の中心への直線をひく。
+中心への直線は明らかに、接線の対の間の角度を二等分している。
+
+ゆえに、角度 $APD, BPE, CPF$ は等しく、
+\[
+\therefore
+\sin APD = \sin BPE = \sin CPF;
+\]
+すなわち、
+\[
+\frac{a}{AP} = \frac{b}{BP} = \frac{c}{CP};
+\]
+\[
+\therefore
+AP : BP : CP = a : b : c
+\]
+である。
+$A, B$ を通る直線をひいて、その上に、
+$AG : GB = AH : HB = a : b$ となるように点 $G, H$ をとる。
+
+このとき、$GH$ 上に描いた半円は、$A, B$ からの距離が $a, b$
+に比例するような点の軌跡である。
+
+ゆえに、$B, C$ を通って直線をひき、
+$B, C$ からの距離が $b, c$ に比例するような点の軌跡となるような半円に対し、
+ 2 つの半円の交点が求める点となる。
+
+Q.E.F.
+
+[注意：
+「その距離がこれこれとなるような点の軌跡」は、
+もし代数的に表現するなら、
+明らかに円であり、その中心は $A, B$ を通る直線上にあり、
+$G$ と $H$ を通る。]
+
+
+\subsection*{56.}
+
+$BC, CE, BD$ を与えられた高さに等しくひき、
+$B, C$ において直角をなすようにする。
+また、$DB, EC$ を延長する。
+$DC$ を結び、これと垂直に $CF$ をひく。
+$EB$ を結び、これと垂直に $BG$ をひく。
+$B$ を中心、半径を $BF$ として円を描き、
+また $C$ を中心、半径を $CG$ として別の円を描く。
+これらの交点を $A$ として、$AB, AC$ を結ぶ。
+
+$ABC$ の高さを $\alpha, \beta, \gamma$ と呼ぶことにする。
+ここで、$\alpha \cdot BC = \beta \cdot CA = \gamma \cdot AB$ であり、
+これは $ABC$ の面積の 2 倍に等しい。
+また、$BC$ を単位長さにとると、
+\[
+BC = \frac{1}{BC},
+\quad
+CA = CG = \frac{1}{CE},
+\quad
+AB = BF = \frac{1}{BD};
+\]
+\[
+\therefore
+\frac{\alpha}{BC} = \frac{\beta}{CE} = \frac{\gamma}{BD};
+\]
+となって、すなわち、
+$\alpha, \beta, \gamma$ は与えられた高さに比例する。
+
+$\therefore$
+三角形 $ABC$ は求める三角形に相似である。
+
+作図の残りは明らかである。
+
+Q.E.F.
+
+\subsection*{57.}
+
+[訳者より：ここに図を入れる] 
+
+(1) 幾何的に
+
+$ABC$ を与えられた三角形とする。
+
+(解析)
+
+3 つの正方形を描いて、それらの上辺が三角形 $A'B'C'$ となっているとする。
+$AA', BB', CC'$ を結ぶ。
+
+ここで、$BB'$ を延長すれば、これの上の任意の点から $AB, AC$
+上に下ろした垂線の長さは $B'F, B'D$ に比例することは明らか。
+
+$AA', CC'$ についても同様である。
+
+ゆえに、これら 3 つの直線は、
+そこから三角形 $ABC$ の各辺に下ろした垂線が $B'C', C'A', A'B'$
+に比例するような点で交わる。
+
+ゆえに、もし正方形たちを $ABC$ の各辺の外側に描いて、
+それらの外側の辺を延長して三角形 $A''B''C''$ を作ったとすると、
+この三角形は、この 3 つの正方形とともに、
+もとの三角形 $ABC$ とその内側の 3 つの三角形の図と、
+全く相似な図をなすことになる。
+
+(作図)
+
+ゆえに、もし正方形を与えられた三角形の外側に描いて、
+それらの外側の辺が新しい三角形をなすように延長し、
+与えられた三角形の各辺を新しい三角形のそれらと相似に分割すると、
+その各辺の中央部分が求める正方形の各辺になる。
+
+Q.E.F.
+
+
+(三角法で)
+
+$a, b, c$ を与えられた三角形の各辺の長さ、
+$m$ をその面積、$x, y, z$ を求める正方形の各辺の長さとする
+
+四角形 $BDB'F$ に外接する円を描けることは明らか。
+
+ゆえに、$\angle B'BD = \angle B'FD$ である。
+
+ここで、三角形 $B'FD$ について、
+\[
+B'D \sin D = B'F \sin F
+\]
+となっている。すなわち、
+\[
+x \sin (B' + F) = z \sin F;
+\]
+\[
+\therefore
+x \sin B' \cos F + x \cos B' \sin F = z \sin F
+\]
+となる。
+ここで、$\angle B$ は $\angle B'$ と補角をなしているから、
+\[
+\therefore
+x \sin B \cos F = (z + x \cos B) \sin F;
+\]
+\[
+\therefore
+\cot F = \frac{z + x \cos B}{x \sin B} = \cot B'BD.
+\]
+ここで、$BD = x \cot B'BD$ である。
+\[
+\therefore
+BD = \frac{z + x \cos B}{\sin B}.
+\]
+同様に、
+\[
+EC = \frac{y + x \cos C}{\sin C}.
+\]
+しかし、$BD + EC = a - x$ であるから、
+\[
+\therefore
+\frac{z + x \cos B}{\sin B} + \frac{y + x \cos C}{\sin C}
+= a - x;
+\]
+\[
+\therefore
+\frac{x \sin (B + C) + y \sin B + z \sin C}{\sin B \sin C}
+= a - x;
+\]
+すなわち、
+\[
+\frac{x \sin A + y \sin B + z \sin C}{\sin B \sin C}
+= a - x.
+\]
+ここで、これらの三角形が相似であって、
+\[
+\frac{a}{x} = \frac{b}{y} = \frac{c}{z}
+\]
+であることは明らか。
+
+ゆえに、最後の方程式を上のそれぞれ等しい分数とかけて、
+\[
+\frac{a \sin A + b \sin B + c \sin C}{\sin B \sin C}
+ = \frac{a^2}{x} - a;
+\]
+\[
+\therefore
+\frac{a \sin A + b \sin B + c \sin C}{a \sin B \sin C}
+ = \frac{a}{x} - 1;
+\]
+\[
+\therefore
+\frac{a}{x} =
+\frac{a \sin A + b \sin B + c \sin C}{a \sin B \sin C} + 1.
+\]
+ゆえに、上式とそれぞれ等しい分数 $\frac{a}{\sin A}, \frac{b}{\sin B}, \frac{c}{\sin C}$ をかけて、
+\begin{eqnarray*}
+\frac{a}{x} &=& \frac{a^2 + b^2 + c^2}{ab \sin C} + 1\\
+&=& \frac{a^2 + b^2 + c^2}{2m} + 1 = \frac{b}{y} = \frac{c}{z}.
+\end{eqnarray*}
+
+Q.E.F.
+
+
+\subsection*{58.}
+
+[訳者より：ここに図を入れる] 
+
+3 つの点は三角形をなすこと、
+3 点が一直線上に乗る確率が(実質上)無視できることを仮定する。
+
+三角形の一番長い辺をとり、$AB$ と呼ぶ。
+その辺の上に、三角形のある側に、半円 $AFB$ を描く。
+また、$A, B$ を中心として半径 $AB, BA$ の弧 $BDC, AEC$
+を描き、交点を $C$ とする。
+
+このとき、三角形の頂点が図形 $ABDCE$ の外にありえないことは明らか。
+
+また、もし頂点が半円の内側にあるとすれば、
+この三角形は鈍角三角形になり、
+もし外側にあれば鋭角三角形になる。
+(半円の円周の「上に」乗る確率は実質上無視できる。)
+
+ゆえに、
+\[
+\mbox{求める確率} = \frac{\mbox{半円の面積}}{\mbox{図形 $ABDCE$ の面積}}
+\]
+である。
+
+ここで、$AB = 2a$ とすると、半円の面積 $= \frac{\pi a^2}{2}$ であり、
+図形 $ABDCE$ の面積 $= 2 \times (\mbox{弧$ABDC$}) - (\mbox{三角形 $ABC$})$
+だから、
+\[
+= 2 \cdot \frac{4 \pi a^2}{6} - \sqrt{3} \cdot a^2
+= a^2 \cdot \left( \frac{4 \pi}{3} - \sqrt{3} \right).
+\]
+\[
+\therefore
+\mbox{確率} =
+\frac{\frac{\pi}{2}}{\frac{4\pi}{3} - \sqrt{3}}
+= \frac{3}{8 - \frac{6 \sqrt{3}}{\pi}}.
+\]
+
+Q.E.F.
+
+[訳注：この議論はもっともらしいが、実際は意味をなしていない。
+同じように一見正しいが全く異なる答を導く方法がいくらでもある。
+その原因は、「無限平面上にランダムに点をとる」方法が定義されていないことである。
+有限の領域と違って、無限に広い場所には「ランダムに」から想像されるような、
+一様な確率を定義することはできないため、「自然な」確率はない。
+よって、具体的に無限平面上にランダムに点を選ぶ方法を指定しない限り、
+この問題に答えることはできないし、どんな議論も意味をなさない。
+キャロルの時代には、
+無限が登場する状況で確率を議論する正確な枠組みがまだ知られていなかった。
+]
+
+\subsection*{59.}
+
+[訳者より：ここに図を入れる] 
+
+$KL = MN = a, KN = LM = b, KM = LN = c$ とし、
+角 $LMK, MKL, KLM$ を $A, B, C$ とする。
+他の面の角度も同様である。
+
+$K$ から底面 $LMN$ に垂直に $KT$ をひく。
+また $LM, MN$ に垂直に $KR, KS$ をひく。
+$TR, TM, TS$ を結ぶ。
+
+角 $TRM, TSM$ が垂直であることは容易に証明される。
+
+求める体積は $\frac{1}{3} \cdot KT \cdot LMN$ である。
+$LMN$ の面積はもちろん知られている。
+よって、あと $KT$ の長さが分かればよい。
+ここで、$KT^2 = KS^2 - TS^2$ であり、
+$KS$ は明らかに $c \sin B$ である。
+ゆえに、$TS$ の長さが分かればよい。
+
+ここで、そのために初等的な補題が必要になる。
+これ自身が非常に面白い問題である。すなわち、
+
+補題(1)
+
+四面体 $RMST$ で、辺 $RM, MS$ と $\angle RMS$ が与えられ、
+角 $TRM, TSM$ は直角とする。このとき $TS$ を求めたい。
+
+[訳者より：ここに図を入れる] 
+
+ここで、
+\[
+\frac{TS}{\sin TRS} = \frac{TR}{\sin TSR};
+\]
+であり、また、$TS \cos TSR + TR \cos TRS = RS$ だから、
+\begin{eqnarray*}
+\therefore
+\frac{TS}{\sin TRS} &=& \frac{TR}{\sin TSR}\\
+&=&
+\frac{TS \cos TSR + TR \cos TRS}{\sin TRS \cos TSR + \sin TSR \cos TRS}\\
+&=&
+\frac{RS}{\sin RMS} = \frac{MS}{\sin MRS};
+\end{eqnarray*}
+\[
+\therefore
+\frac{TS}{\cos MRS} = \frac{MS}{\sin MRS}
+\]
+すなわち、$TS = MS \cot MRS$ である。
+Q.E.F.
+
+ゆえに、$\cot MRS$ の値を知るために、
+またもう 1 つの補題を必要とする。
+(または、$\tan MRS$ でもよくて、問題がより綺麗になる。)
+
+補題(2)
+
+三角形 $RMS$ の辺 $RM, MS$ と $\angle RMS$ が与えられたとき、
+$\tan MRS$ を求めたい。
+
+[訳者より：ここに図を入れる] 
+
+\begin{eqnarray*}
+\tan MRS &=& \frac{\sin MRS}{\cos MRS}
+ = \frac{RS \sin MRS}{RS \cos MRS}\\
+&=& \frac{MS \sin RMS}{RM - MS \cos RMS}.
+\end{eqnarray*}
+Q.E.F.
+
+ゆえに、四面体 $RMST$ で、補題 (1) によって、
+\[
+TS = MS \cot MRS
+\]
+であり、補題 (2) によって、
+\begin{eqnarray*}
+\cot MRS &=& \frac{RM - MS \cos RMS}{MS \sin RMS}\\
+&=&
+\frac{c \cos A - c \cos B \cos C}{c \cos B \sin C}
+= \frac{\cos A - \cos B \cos C}{\cos B \sin C};
+\end{eqnarray*}
+\[
+\therefore
+TS = \frac{c}{\sin C} (\cos A - \cos B \cos C).
+\]
+ここで、$KT^2 = KS^2 - TS^2$ であるから、
+\begin{eqnarray*}
+&=& (c \sin B)^2 - \frac{c^2}{\sin^2 C} (\cos A - \cos B \cos C)^2\\
+&=&
+ \frac{c^2}{\sin^2 C} \{ (\sin B \sin C)^2 - (\cos A - \cos B \cos C)^2 \}
+\end{eqnarray*}
+ゆえに、$KT = \frac{c}{\sin C}$ に
+\[
+\sqrt{\sin^2 B \sin^2 C - \cos^2 B \cos^2 C - \cos^2 A + 2 \cos A \cos B \cos C}
+\]
+をかけたものは、$KT = \frac{c}{\sin C}$ に
+\[
+\sqrt{(1 - \cos^2 B)(1 -  \cos^2 C) - \cos^2 B \cos^2 C - \cos^2 A + 2 \cos A \cos B \cos C}
+\]
+\[
+= \frac{c}{\sin C} \sqrt{1 - (\cos^2 A + \cos^2 B + \cos^2 C) + 2 \cos A \cos B \cos C}
+\]
+をかけたものに等しく、これはそうあるべく、対称的である。
+
+ここで、$LMN$ の面積 $= \frac{ab \sin C}{2}$ であり、
+ゆえに四面体の体積は、
+\[
+= \frac{abc}{6}
+ \sqrt{1 - (\cos^2 A + \cos^2 B + \cos^2 C) + 2 \cos A \cos B \cos C}.
+\]
+
+Q.E.F.
+
+
+\subsection*{60.}
+
+[訳者より：ここに図を入れる] 
+
+$\angle BAD = \theta, \angle CAD = \phi$ とする。
+このとき、
+\[
+\frac{\sin (B + \theta)}{\sin \theta}
+= \frac{c}{\left( \frac{ma}{m + n} \right)}
+= \frac{c ( m + n)}{ma};
+\]
+\[
+\therefore
+\sin B \cot \theta + \cos B = \frac{c(m + n)}{ma};
+\]
+\begin{eqnarray*}
+\therefore
+\cot \theta
+&=&
+ \frac{c(m + n)}{ma \sin B} - \cot B\\
+&=&
+ \frac{(m+n)b \cos A + ma \cos B}{ma \sin B}
+\end{eqnarray*}
+となる。すなわち、
+\begin{eqnarray*}
+\therefore
+\cot \theta
+&=&
+\frac{(m + n) \frac{b}{\sin B} \cos A + na \cot B}{ma}\\
+&=&
+\frac{(m + n) a \cot A + na \cot B}{ma}\\
+&=&
+\frac{(m + n)  \cot A + n \cot B}{m}
+\end{eqnarray*}
+となる。同様にして、
+\[
+\cot \phi = \frac{(m + n)  \cot A + m \cot C}{n}
+\]
+となる。
+
+Q.E.F.
+
+「系」
+
+(1)
+\[
+m \cot \theta - n \cot \phi = n \cot B - m \cot C.
+\]
+
+(2)
+\[
+\frac{\cot B + \cot \phi}{\cot C + \cot \theta} = \frac{m}{n}.
+\]
+
+(3)
+もし三角形が正三角形なら、
+\[
+\cot \theta = \frac{m + 2n}{m} \cdot \frac{1}{\sqrt{3}},
+\cot \phi = \frac{n + 2m}{n} \cdot \frac{1}{\sqrt{3}}.
+\]
+\[
+\therefore
+\frac{\cot \theta}{\cot \phi} = \frac{mn + 2n^2}{mn + 2m^2};
+\]
+\[
+\therefore
+\frac{\tan \theta}{\tan \phi} = \frac{mn + 2m^2}{mn + 2n^2};
+\]
+すなわち、
+もし $CD'B$ を $AD$ に垂直にひくと、
+\[
+\frac{B'D'}{D'C} = \frac{mn + 2m^2}{mn + 2n^2};
+\]
+となる。例えば、$\frac{m}{n} = \frac{1}{2}$ ならば、
+$\frac{B'D'}{D'C} = \frac{2}{5}$ である。
+
+(4)
+$\tan A = 1,  \tan B = 2, \tan C = 3$ とする。このとき、
+\[
+\cot \theta = \frac{m + n + n \cdot \frac{1}{2}}{m}
+ = \frac{2m + 3n}{2m},
+\]
+\[
+\cot \phi = \frac{m + n + n \cdot \frac{1}{3}}{n}
+ = \frac{3n + 4m}{3m};
+\]
+\[
+\therefore
+\frac{\tan \theta}{\tan \phi}
+ = \frac{6mn + 8m^2}{6mn + 9n^2};
+\]
+これより、もし $\tan \theta / \tan \phi$ が与えられたならば、
+二次方程式を解くことで $\frac{m}{n}$ を求めることができる。
+
+私は、$m$ と $n$ に有理数を与えるようなものを見つけるため、
+様々な値を試し、$\frac{2}{3}$ がうまく行くことを見つけた。
+この場合は、二次式
+\[
+2( 6 mn + 9 n^2) - 3(6mn + 8m^2) = 0
+\]
+となり、全体を $6$ で割ったあと、
+$(B^2 - 4AC)$ は $1^2 + 4 \cdot 4 \cdot 3 = 49$ になる。
+
+このとき二次式は $4 m^2 + mn - 3n^2 = 0$ となり、
+ここで $\frac{m}{n} = \frac{-1 \pm 7}{8} = \frac{3}{4}$ であり、
+これは「三角形 $ABC$ が与えられたとき、その角の正接が $1, 2, 3$
+に等しいとき、$BC$ を $D$ で分割して、
+$AD$ を結んで、$CD'B'$ をこれに垂直にひいたとき、
+比 $\frac{B'D'}{D'C}$ が $\frac{2}{3}$ になるようにせよ」
+という問題を解いたことになる。
+答は、「$\frac{BD}{DC} = \frac{3}{4}$ となるように分点を取る」
+である。
+
+\subsection*{61.}
+
+等式
+\[
+(a^2 + 4b^2 + 4c^2) + (4 a^2 + b^2 + 4c^2) + (4a^2 + 4b^2 + c^2)
+= 9 (a^2 + b^2 + c^2)
+\]
+は常に正しい。
+ゆえに、
+\begin{eqnarray*}
+a^2 + b^2 + c^2
+&=& \frac{1}{9} \{
+(a^2 + 4b^2 + 4c^2) + (4 a^2 + b^2 + 4c^2) + (4a^2 + 4b^2 + c^2)
+\}\\
+&=& \frac{1}{9} \{
+(a^2 + 4b^2 + 4c^2 + 8bc - 4ca - 4ab)\\
+&&+ (4 a^2 + b^2 + 4c^2 - 4bc + 8ca - 4ab)\\
+&&+ (4a^2 + 4b^2 + c^2 - 4bc - 4ca + 8ab) \}\\
+&=& \frac{1}{9} \{
+(-a+2b+2c)^2 + (2a-b+2c)^2 + (2a+2b-c)^2 \}\\
+&=&
+\left( \frac{-a+2b+2c}{3} \right)^2
++ \left( \frac{2a-b+2c}{3} \right)^2
++ \left( \frac{2a+2b-c}{3} \right)^2.
+\end{eqnarray*}
+
+ここで、$(-a + 2b + 2c) = 3(b + c) - (a + b + c)$ だから、
+$(a + b + c)$ が $3$ の倍数ならば、$(-a + 2b + 2c)$ もそうであり、
+ゆえに $\frac{-a + 2b + 2c}{3}$ は整数である。
+他の 2 つの項についても同じことが成り立つ。
+
+また、もし $\frac{-a + 2b + 2c}{3}$ が $a$ か $b$ か $c$ に等しいなら、
+$a, b, c$ を等差数列に並べられることも証明できる。
+
+まず、$\frac{-a + 2b + 2c}{3} = a$ としてみると、このとき、
+\[
+-a + 2b + 2c = 3a, \quad \mbox{すなわち、}
+\quad b + c = 2a;
+\]
+次に、$\frac{-a + 2b + 2c}{3} = b$ とすると、
+\[
+-a + 2b + 2c = 3b, \quad \mbox{すなわち、}
+\quad 2c = a + b;
+\]
+三番目に、$\frac{-a + 2b + 2c}{3} = c$ とすると、
+\[
+-a + 2b + 2c = 3c, \quad \mbox{すなわち、}
+\quad 2b = c + a
+\]
+となって、他の 2 つの分数も同様である。
+
+ゆえに、これを逆に言い換えれば、
+もし $a, b, c$ が等差数列に並び換えられなければ、
+平方数の 2 つの組は共通の項を持たない。
+
+Q.E.D.
+
+\begin{center}
+数表(すべて暗算で得たわけではないが)
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+$a^2$ & $b^2$ & $c^2$
+ & $\left(\frac{-a+2b+2c}{3} \right)^2$
+ & $\left(\frac{2a-b+2c}{3} \right)^2$
+ & $\left(\frac{2a+2b-c}{3} \right)^2$\\
+\hline
+$1^2$ & $4^2$ & $4^2$ & $5^2$ & $2^2$ & $2^2$\\
+$3^2$ & $4^2$ & $8^2$ & $7^2$ & $6^2$ & $2^2$\\
+$4^2$ & $5^2$ & $9^2$ & $8^2$ & $7^2$ & $3^2$\\
+\hline
+\end{tabular}
+\end{center}
+
+
+\subsection*{62.}
+
+[訳者より：ここに図を入れる] 
+
+$AB, AC$ を与えられた直線、$P$ を与えられた点とする。
+
+$P$ を通って $AB$ に平行に $PD$ をひき、
+$DC$ から $AD$ に等しい長さで $DE$ を切り取る。
+$EP$ を結び、これを延長して $AB$ との交点を $F$ とする。
+
+$AD = DE$ であり、$DP$ は $AB$ に平行であるから、
+\[
+\therefore
+FP = PE
+\]
+となる。
+ここで、$GPH$ を $P$ を通る他の直線とする。
+このとき、$\angle PFH = > \angle PEG$ である。
+
+三角形 $PFH, PEG$ において、$PH = PE$ であり、また
+\[
+\angle FPH = \angle GPE,
+\quad
+\angle PFH > \angle PEG
+\]
+であるから、
+$\therefore PH > PG$ であって、三角形 $PFH$ の面積 $>$ 三角形 $PGE$ の面積。
+おのおのに四角形 $AFPG$ を足せば、
+\[
+\therefore
+\mbox{三角形} AGH > \mbox{三角形} AEF
+\]
+となる。これは $P$ を通る他の任意の直線についてもそうである。
+
+ゆえに、$AEF$ は可能な最小の三角形である。
+
+Q.E.F.
+
+\subsection*{63.}
+
+[訳者より：ここに図を入れる] 
+
+各正方形の各辺の長さを $2$ とする。
+
+このとき、$LG = \sqrt{3}, MG = (\sqrt{2} - 1)$ である。
+\[
+\therefore
+LM ( = JK) = \sqrt{3 - (2 + 1 - 2\sqrt{2})}
+ = 2^{\frac{3}{4}};
+\]
+\[
+\therefore
+OJ = OK = \frac{1}{2^{\frac{1}{4}}}
+\]
+である。
+
+原点として $O$ をとり、$X$-軸を $AD$ に平行に、
+$Y$-軸を $AB$ に平行にとり、$JK$ を $Z$-軸の部分とする。
+
+三角形 $CDG$ を含む平面の方程式を
+\[
+x \cos \alpha + y \cos \beta + z \cos \gamma - p = 0
+\]
+とする。
+ここで、$p$ は原点からこの平面に下ろした垂線の長さであり、
+この垂線は $LG$ とどこかで交わる。
+
+ゆえに、$XZ$-平面の中で、$LG$ の方程式から $p$ を求められ、
+この方程式は
+\[
+x \cos \alpha + z \cos \gamma - p = 0
+\]
+である。
+ここでこの直線は $L, G$ を含み、
+$L$ の座標は $\left( 1, \frac{1}{2^{\frac{1}{4}}} \right)$,
+$G$ の座標は $\left( \sqrt{2}, -\frac{1}{2^{\frac{1}{4}}} \right)$
+である。
+\[
+\therefore
+\cos \alpha + \frac{1}{2^{\frac{1}{4}}} \cos \gamma - p = 0
+\]
+であり、
+\[
+\sqrt{2} \cos \alpha -\frac{1}{2^{\frac{1}{4}}} \cos \gamma - p = 0.
+\]
+\[
+\therefore
+(\sqrt{2} - 1) \cos \alpha
+= \frac{2}{2^{\frac{1}{4}}} \cos \gamma
+= 2^{\frac{3}{4}} \cos \gamma;
+\]
+\[
+\therefore
+\frac{\cos \alpha}{2^{\frac{3}{4}}}
+= \frac{\cos \gamma}{\sqrt{2} - 1}
+= \frac{1}{\sqrt{2^{\frac{3}{2}} + 3 - 2^{\frac{3}{2}}}}
+= \frac{1}{\sqrt{3}};
+\]
+\[
+\therefore
+\cos \alpha = \frac{2^{\frac{3}{4}}}{\sqrt{3}},
+\quad
+\cos \gamma = \frac{\sqrt{2} - 1}{\sqrt{3}};
+\]
+\[
+\therefore
+p = \frac{2^{\frac{3}{4}}}{\sqrt{3}}
+ + \frac{\sqrt{2} - 1}{2^{\frac{1}{4}}\sqrt{3}}
+= \frac{\sqrt{2} + 1}{2^{\frac{1}{4}}\sqrt{3}}.
+\]
+ここで $CDG$ の面積 $= \sqrt{3}$ である。
+
+$\therefore$ 底面が $CDG$ で頂点が $O$ のピラミッドの体積
+\[
+= \frac{\sqrt{2} + 1}{3 \cdot 2^{\frac{1}{4}}}
+\]
+であり、
+立体の中にこのようなピラミッドが $8$ つあるから、
+\[
+\therefore
+\mbox{これらの和} = \frac{8(\sqrt{2} + 1)}{3 \cdot 2^{\frac{1}{4}}}
+\]
+である。
+また、$ABCD$ を底面とし、$O$ を頂点とするピラミッドの体積
+\[
+=  \frac{4}{3 \cdot 2^{\frac{1}{4}}}
+\]
+であり、
+立体の中にはこのようなピラミッドが $2$ つあるから、
+\[
+\therefore
+\mbox{これらの和} = \frac{8}{3 \cdot 2^{\frac{1}{4}}}.
+\]
+\[
+\therefore
+\mbox{立体の体積}
+= \frac{8(2 + \sqrt{2})}{3 \cdot 2^{\frac{1}{4}}}
+= \frac{8 \cdot 2^{\frac{1}{4}} (\sqrt{2} + 1)}{3}
+\]
+となる。
+
+Q.E.F.
+
+\subsection*{64.}
+
+[訳者より：ここに図を入れる] 
+
+$ABC$ を与えられた三角形とし、$O$ を与えられた点とする。
+また $OD$ を $BC$ からの距離とし、
+$CA, AB$ への距離の $OE, OF$ よりも短いとする。
+
+直線 $GH$ を $OE$ に等しくひき、
+$GK$ をこれに垂直で $OF$ に等しくひく。
+$HK$ を結び、三角形 $GHK$ の外接円を描いて、
+これを線分 $KL$ が $OD$ と等しくなるようにおき、
+$LH$ を結ぶ。
+
+$KL, LH$ の平方の和 $=$ $KG, GH$ の平方の和であり、
+$KL$ は $KG, GH$ のどちらよりも短いから、
+$\therefore LH$ はどちらよりも短い。
+
+$\therefore$
+$O$ を中心として半径が $LH$ である円は、これら $3$ つの直線と、
+それぞれ二点ずつ交わる。
+この円を描く。
+
+このとき、
+$MD, DO$ の平方の和 $=$ $PE, EO$ の平方の和。
+
+また、$LH$ の平方 $=$ $RF, FO$ の平方の和。
+
+$\therefore$ $MD, DO, LH$ の平方の和
+$=$ $PE, RF, EO, FO$ の平方の和。
+
+しかし、$DO, LH$ の平方の和 $=$ $KL, LH$ の平方の和
+$=$ $GH, GK$ の平方の和 $=$ $EO, FO$ の平方の和。
+
+$\therefore MD$ の平方の和
+$=$ $PE, RF$ の平方の和。
+
+$\therefore$
+$MD$ の平方の $4$ 倍 $=$ $PE, RF$ の平方の和の $4$ 倍。
+
+すなわち、$MN$ の平方 $=$ $PQ, RS$ の平方の和。
+
+ゆえに、$MN, PQ, RS$ 直角三角形の各辺の長さになる。
+
+Q.E.F.
+
+\subsection*{65.}
+
+ 3 つの角度が $360^\circ$ の $\frac{1}{x},\frac{1}{y},\frac{1}{z}$
+であるとすると、
+\[
+\frac{1}{x} + \frac{1}{y} + \frac{1}{z} = \frac{1}{2}
+\]
+でなければならない。これは、3つの未知数を持つ、
+不定方程式である。
+
+明らかに解のどれも $2$ より小さくなることはできない。
+
+(1) $x = 3$ とする。このとき $\frac{1}{y} + \frac{1}{z} = \frac{1}{6}$
+である。
+
+ここで、もし、
+\[
+\frac{1}{y} = \frac{k}{k+l} \times \frac{1}{6}
+\quad \mbox{ならば、}
+\quad
+\frac{1}{z} = \frac{l}{k+l} \times \frac{1}{6}
+\]
+となる。ゆえに $k$ は $1, 2, 3, 6$ のいずれかでしかありえない。
+同じことが $l$ についても言える。
+
+(注意：分数 $\frac{k}{k+l}, \frac{l}{k+l}$ は最小の項で表されていることを
+仮定している。)
+
+$\frac{1}{y} < \frac{1}{z}$ でないとする。
+このとき、$\frac{k}{k+l} < \frac{1}{2}$ でない。
+
+このとき $\frac{k}{k+l}$ の値として可能なのは、
+
+$\frac{1}{2}$ で、$\frac{k}{k+l} = \frac{1}{2}$ であるか、
+
+$\frac{2}{3}$ で、$\frac{k}{k+l} = \frac{1}{3}$ であるか、
+
+$\frac{3}{4}$ で、$\frac{k}{k+l} = \frac{1}{4}$ であるか、
+
+$\frac{3}{5}$ で、$\frac{k}{k+l} = \frac{2}{5}$ であるか、
+
+$\frac{6}{7}$ で、$\frac{k}{k+l} = \frac{1}{7}$ であるか、
+
+のいずれかである。これらはそれぞれ、
+$\frac{1}{x},\frac{1}{y},\frac{1}{z}$
+の 5 組の値を与える。すなわち、
+\[
+\frac{1}{3},\frac{1}{12},\frac{1}{12};
+\quad
+\frac{1}{3},\frac{1}{9},\frac{1}{18};
+\quad
+\frac{1}{3},\frac{1}{8},\frac{1}{24};
+\quad
+\frac{1}{3},\frac{1}{10},\frac{1}{15};
+\quad
+\frac{1}{3},\frac{1}{7},\frac{1}{42}
+\]
+である。
+
+(2) $x = 4$ とする。このとき $\frac{1}{y} + \frac{1}{z} = \frac{1}{4}$
+であり、上と同様に、
+$k$ は $1, 2, 4$ のいずれかでしかありえず、
+同じことが $l$ についても言える。
+ゆえに、$\frac{k}{k+l}$ の値として可能なのは、
+
+$\frac{1}{2}$ で、$\frac{k}{k+l} = \frac{1}{2}$ であるか、
+
+$\frac{2}{3}$ で、$\frac{k}{k+l} = \frac{1}{3}$ であるか、
+
+$\frac{4}{5}$ で、$\frac{k}{k+l} = \frac{1}{5}$ であるか、
+
+のいずれか。これらはそれぞれ、さらに 3 つの
+$\frac{1}{x},\frac{1}{y},\frac{1}{z}$
+の値の組を与える。すなわち、
+\[
+\frac{1}{4},\frac{1}{8},\frac{1}{8};
+\quad
+\frac{1}{4},\frac{1}{6},\frac{1}{12};
+\quad
+\frac{1}{4},\frac{1}{5},\frac{1}{20}
+\]
+である。
+
+(3) $x = 5$ とする。このとき $\frac{1}{y} + \frac{1}{z} = \frac{3}{10}$
+である。
+ゆえに、分母は $3$ の因数を含まねばならず、
+$k$ としてありうる値は $1, 2, 5, 10$ のいずれかであって、
+$l$ についても同じことが言える。
+ゆえに、$\frac{k}{k+l}$ の値として可能なのは、
+
+$\frac{1}{2}$ で、$\frac{k}{k+l} = \frac{1}{2}$ であるか、
+
+$\frac{2}{3}$ で、$\frac{k}{k+l} = \frac{1}{3}$ であるか、
+
+$\frac{5}{6}$ で、$\frac{k}{k+l} = \frac{1}{6}$ であるか、
+
+のいずれか。
+これらはそれぞれ、さらに 2 つの
+$\frac{1}{x},\frac{1}{y},\frac{1}{z}$
+の値の組を与える。すなわち、
+\[
+\frac{1}{5},\frac{1}{5},\frac{1}{10};
+\quad
+\frac{1}{5},\frac{1}{4},\frac{1}{20};
+\]
+である。しかし、後者は(考慮で見逃していた事実として)
+既に挙げている。
+
+(4) $x = 6$ とする。このとき $\frac{1}{y} + \frac{1}{z} = \frac{1}{3}$
+である。
+ゆえに $k$ は $1, 3$ のどちらかでしかありえず、
+$l$ についても同じことが言える。
+ゆえに、$\frac{k}{k+l}$ の値として可能なのは、
+
+$\frac{1}{2}$ で、$\frac{k}{k+l} = \frac{1}{2}$ であるか、
+
+$\frac{3}{4}$ で、$\frac{k}{k+l} = \frac{1}{4}$ であるか、
+
+のどちらか。
+これらはそれぞれ、さらに 2 つの組を与える。すなわち、
+\[
+\frac{1}{6},\frac{1}{6},\frac{1}{6};
+\quad
+\frac{1}{6},\frac{1}{4},\frac{1}{12}
+\]
+である。
+しかし、後者は既に挙げている。
+
+$x$ が $6$ より大きい値の場合には、考える必要がない。
+なぜなら、
+$\frac{1}{y} + \frac{1}{z} > \frac{1}{3}$
+となるので、
+どれかは $\frac{1}{6}$ より大きくなり、
+$y$ か $z$ は $6$ 未満でなければならず、
+既に挙げた値を再び得ることになる。
+
+ゆえに、$10$ 組の異なる形を得る。
+
+Q.E.F.
+
+この $10$ 組の角度の値は(これらを全部暗算で得られたか、確かでないが)
+
+(1) $120^\circ, 30^\circ, 30^\circ$;
+
+(2) $120^\circ, 40^\circ, 20^\circ$;
+
+(3) $120^\circ, 45^\circ, 15^\circ$;
+
+(4) $120^\circ, 36^\circ, 24^\circ$;
+
+(5) $120^\circ, 51\frac{3}{7}^\circ, 8\frac{4}{7}^\circ$;
+
+(6) $90^\circ, 45^\circ, 45^\circ$;
+
+(7) $90^\circ, 60^\circ, 30^\circ$;
+
+(8) $90^\circ, 72^\circ, 18^\circ$;
+
+(9) $72^\circ, 72^\circ, 36^\circ$;
+
+(10) $60^\circ, 60^\circ, 60^\circ$.
+
+
+\subsection*{66.}
+
+$\frac{\alpha}{\alpha + \beta}$ を $k$ と書く。
+いま、小石は両方とも白であるか、 1 つが白で 1 つが黒であるか、
+のどちらかである。
+前者の確率を $x$ をすると、
+後者の確率は $(1 - x)$ である。
+ゆえに、白石をひく確率は、$x \times 1 + (1 - x) \times \frac{1}{2}$
+となる。
+\[
+\therefore
+x + \frac{1-x}{2} = k;
+\quad
+\therefore
+x = 2k - 1;
+\]
+\[
+\therefore
+(1 - x) = 2 - 2k.
+\]
+今、小石を 1 つひいて、白かどうか見る。
+このとき、「観測された事象」の確率は、
+1 番目の状況では $1$ であり、2 番目の状況では $\frac{1}{2}$である。
+
+ゆえに、これら 2 つの状況の存在する確率は、
+$(2k - 1)\times 1, (2-2k) \times \frac{1}{2}$ に比例、
+すなわち $2k - 1, 1 - k$ に比例する。
+
+ゆえに、実際これらの確率は $\frac{2k-1}{k}, \frac{1-k}{k}$
+である。
+ゆえに、いま白石をひく確率は
+\[
+\frac{2k-1}{k} \times 1 + \frac{1-k}{k} \times \frac{1}{2}
+= \frac{3k-1}{2k}
+\]
+である。
+
+ゆえに、この試行を一度繰り返す効果は $k$ を $\frac{3k-1}{2k}$
+に変化させることである。
+
+ゆえに、二度目の繰り返しでこれは
+\[
+\frac{3k-1}{2k}
+\quad \mbox{が}
+\quad \frac{3 \times \frac{3k-1}{2k} - 1}{2 \times \frac{3k-1}{2k}};
+\quad \mbox{すなわち}
+\quad \frac{7k-3}{6k-2}
+\quad \mbox{に変化する。}
+\]
+
+ここから我々は数列、
+\[
+k, \quad
+\frac{3k-1}{2k}, \quad
+\frac{7k-3}{6k-2},
+\]
+の法則を(もしあれば、だが) $1, 2, 3$ の関数として、
+見つけなければならない。
+
+第 3 項の形に、初項、第 2 項を書き直すことができて、
+\[
+\frac{k - 0}{0 \times k - (-1)},
+\quad \frac{3k -1}{2k - 0},
+\quad \frac{7k-3}{6k-2}
+\]
+となる。推測によって各々は、$n$ をその項の場所を表すとして
+\[
+\frac{(2^n - 1) \times k - (2^{n-1} - 1)}{(2^n - 2) \times k - (2^{n-1} - 2)}
+\]
+だろうと分かる。
+
+この法則が $n$ 項まで成立すると仮定して、
+もう一度試行を繰り返したときの効果はどうなるか。
+
+我々は $k$ を $\frac{3k-1}{2k}$ に変えることを知っている。
+ゆえに、新しい確率は、
+\[
+\frac{3 \times
+\frac{(2^n-1)\times k - (2^{n-1} - 1)}{(2^n-2)\times k - (2^{n-1} - 2)}
+-1}
+{2 \times
+\frac{(2^n-1)\times k - (2^{n-1} - 1)}{(2^n-2)\times k - (2^{n-1} - 2)}
+-1}
+\]
+となり、すなわち、
+\[
+\frac{k \times (3 \cdot 2^n - 3 - 2^n + 2) - 3 \cdot 2^{n-1} + 3 + 2^{n-1} -2}
+{(2^{n+1} - 2) \times k - (2^{n} - 2)}
+\]
+つまり、
+\[
+\frac{(2^{n+1} - 1) \times k - (2^{n} - 1)}
+{(2^{n+1} - 2) \times k - (2^{n} - 2)}
+\]
+となる。
+
+すなわち、数列の第 $(n+1)$ 項は同じ法則に従う。
+しかし、我々はこの法則が初項、第 2 項、第 3 項について成立することを知っている。
+ゆえに、これは一般的に成り立つ。
+
+ゆえに、
+この試行を $m$ 回繰り返したあと、
+白石をひく確率は上の数列の第 $(m + 1)$ 項になる。
+すなわち、それは
+\[
+\frac{(2^{m+1} - 1) \times k - (2^{m} - 1)}
+{(2^{m+1} - 2) \times k - (2^{m} - 2)}
+\]
+である。
+
+ここで、$k$ を $\frac{\alpha}{\alpha + \beta}$ と書く。
+すると確率は、
+\[
+\frac{(2^{m+1} - 1) \times \alpha - (2^{m} - 1)(\alpha + \beta)}
+{(2^{m+1} - 2) \times \alpha - (2^{m} - 2)(\alpha + \beta)}
+\]
+であり、すなわち、
+\[
+\frac{(2^{m+1} - 2^m) \alpha - (2^{m} - 1) \beta}
+{(2^{m+1} - 2^m) \alpha - (2^{m} - 2) \beta}
+=
+\frac{2^m (\alpha - \beta) + \beta}{2^m (\alpha - \beta) + 2 \beta}
+\]
+となる。
+
+Q.E.F.
+
+[例]
+確率を $\frac{9}{10}$ とする。このとき、試行をもう 5 回繰り返す。
+
+ここでは、$\alpha = 9, \beta = 1$ である。
+\[
+\therefore
+\mbox{確率は}
+\quad
+\frac{32 \times 8 + 1}{32 \times 8 + 2}
+\quad
+\mbox{すなわち}
+\quad
+\frac{257}{258}.
+\]
+
+\subsection*{67.}
+
+$ABCD$ を問題での穴とする。
+平面 $DOA$ が新しい場所 $D'Q'A'$ をとるまで四面体を回転させる。
+そして、この新しい場所で、辺 $DA$ を穴の縁 $AC$ と $R$
+で交わらせる。
+$A'$ から $XY$-平面に垂直に $A'L$ をひく。
+$OR$ を結び、$L$ まで延長する。
+そして、$R$ と $L$ の $y$-座標へと、$RM, LN$ をひく。
+
+このとき、$A'$ の座標は $ON, NL, LA'$ である。
+
+$OM, MR$ を $x', y'$ と呼ぶ。
+$OA, OR, OD$ を $a, a', h$ と呼び、
+$\angle XOR$ を $\theta$ とする。
+
+四面体の垂直軸が常に $Z$-軸に一致していることは明らかである。
+
+ゆえに、$A$ は筒型の表面を移動する。
+すなわち、
+\[
+x^2 + y^2 = a^2.
+\quad \cdots \mbox{(1)}
+\]
+ここで、$\angle XAC = 150^\circ$ である。
+
+$\therefore$ $AC$ の方程式は、
+\[
+y = - \frac{1}{\sqrt{3}} (x - a);
+\]
+すなわち、
+\[
+x + \sqrt{3} \cdot y = a.
+\quad \cdots \mbox{(2)}
+\]
+また、$OR$ の方程式は、
+\[
+\frac{x}{\cos \theta} = \frac{y}{\sin \theta} = \delta;
+\]
+$\therefore$ $R$ において、
+\[
+\frac{x'}{\cos \theta} = \frac{y'}{\sin \theta} = a';
+\quad \cdots \mbox{(3)}
+\]
+$\therefore$ (2) によって、
+$a' \cos \theta + \sqrt{3} \cdot a' \sin \theta = a$
+だから、
+\[
+\therefore
+a' = \frac{a}{\cos \theta + \sqrt{3} \sin \theta}.
+\quad \cdots \mbox{(4)}
+\]
+また、三角形 $D'QA', D'OR$ の相似によって、
+$QA' : QD' = OR: OD'$ である。すなわち、
+\[
+a : h = \frac{a}{\cos \theta + \sqrt{3} \sin \theta} : h - z;
+\]
+\[
+\therefore
+h - z = \frac{h}{\cos \theta + \sqrt{3} \sin \theta};
+\]
+しかし、$\cos \theta = \frac{x}{a}, \sin \theta = \frac{y}{a}$
+であるから、
+\[
+\therefore
+h - z = \frac{ah}{x + \sqrt{3} \cdot y};
+\]
+すなわち、
+\[
+(x + \sqrt{3} \cdot y )(h - z) = ah.
+\quad \cdots \mbox{(5)}
+\]
+方程式 (1) と (5) が求める軌跡を与える。
+
+Q.E.F.
+
+
+\subsection*{68.}
+
+3 日間で持ち出されたワインの本数をそれぞれ $x, y, z$
+としよう。
+各ワインは 1 瓶が $10 v$ ペンスの原価で、
+ゆえに $11v$ ペンスで売られるとする。
+
+このとき、会計係が受け取るのは 3 日間で
+$(x - 1) \cdot 11 v, y \cdot 11 v - v, (z - 1) \cdot 11 v - v$
+であり、
+利益(つまり、持ち出されたワインからその原価をひいたあとの残り)
+として得られたのは、
+$xv - 11v, yv - v, zv - 12v$
+になる。
+このとき、これら 3 つの量は等しいのだった。
+
+ゆでに、$y = z - 10$ かつ $z = z + 1$ である。
+
+$\therefore$ ワインの本数は全体で $x + y + z = 3x - 9$
+である。
+
+ここで、全体の利益は $(x + y + z) v - 24v$
+すなわち、$(3x - 33)v$ である。
+
+$\therefore$
+ワイン 1 本あたりでは、$= \frac{(3x-33)v}{3x-9}$ であり、
+これは $=6$ でなければならない。
+\[
+\therefore
+(x - 11) v = (x - 3) \cdot 6
+\]
+となる。
+また、$z \cdot 11v = 11 \times 240$ であるから、
+すなわち、$(x + 11) \cdot 11v = 11 \times 240$ となる。
+\[
+\therefore
+\frac{x - 11}{x + 1} = \frac{6(x - 3)}{240};
+\]
+\[
+\therefore
+(x + 1)(x - 3) = 40(x - 11);
+\]
+\[
+\therefore
+x^2 - 2x - 3 = 40x - 440;
+\]
+\[
+\therefore
+x^2 - 42x + 437 = 0;
+\]
+ここで、$42^2 - 4 \times 437 = 1764 - 1748 = 16$ であるから、
+\[
+\therefore
+x = \frac{42 \pm 4}{2} = 23 \mbox{または} 19.
+\]
+$\therefore$ ワインの本数は $= 68$ か $48$ である。
+しかし、これは $5$ の倍数でなければならないから、
+$\therefore v = 10$ となる。
+
+すなわち、ワインは 1 本当たり $8$ シリング $4$ ペンスで買い、
+$9$ シリング $2$ ペンスで売った。
+
+\subsection*{69.}
+
+(1)
+
+[訳者より：ここに図を入れる] 
+
+$\angle BAD = k A, \angle CBE = l B, \angle ACF = m C$
+とする。
+
+このとき、$\angle ABE = (1 - l) B$ である。
+
+ここで、$\angle BC'D = \angle C'AB + \angle C'BA$.
+
+すなわち、
+\[
+k A + (1 - l) B = C
+\quad \cdots \mbox{(1)}
+\]
+となる。
+
+同様に、
+\[
+l B + (1 - m) C = A;
+\quad \cdots \mbox{(2)}
+\]
+また、
+\[
+m C + (1 - k) A = B.
+\quad \cdots \mbox{(3)}
+\]
+
+方程式 (1) と (3) から、$l$ と $m$ が $k$ で表示される。
+しかし、$k$ で表現するだけでは、
+これらは単一の変数 $k$ の「同様な」関数にはならない。
+そこで、我々は $k$ を $A, B, C$ そして新たに導入した $\theta$ 
+の関数として表示し、
+$l$ は $B, C, A$ と $\theta$ で、
+$m$ は $C, A, B$ と $\theta$ を用いて、
+同じ関数で書かれるようにしなければならない。
+すなわち、
+\begin{eqnarray*}
+k &=& f(A, B, C, \theta),\\
+l &=& f(B, C, A, \theta),\\
+m &=& f(C, A, B, \theta)
+\end{eqnarray*}
+のように表示したい。
+
+ここで、我々は (1) より、$kA - lB = C - B$, つまり、
+\[
+A \cdot f(A, B, C, \theta) - B \cdot f(B, C, A, \theta) = C - B
+\]
+であることを知っている。。
+ここで、試みとして、
+\begin{eqnarray*}
+k A &=& xA + yB + zC + \theta,\\
+l B &=& xB + yC + zA + \theta;
+\end{eqnarray*}
+としてみる。
+このとき、$kA - lB = (x-z)A + (y-z)B + (z-y)C$ となり、
+\[
+\therefore
+x - z = 0;
+\quad
+\mbox{すなわち}
+\quad x = z;
+\]
+\[
+z - y = 1;
+\quad
+\mbox{すなわち}
+\quad z = y + 1.
+\]
+これらの条件は $y = 1$  ととり、$x = z = 2$ とすれば満たされ、
+\begin{eqnarray*}
+kA &=& 2A + B + 2C + \theta,\\
+lB &=& 2B + C + 2A + \theta;
+\end{eqnarray*}
+となって、これより
+\[
+f(A, B, C, \theta) = \frac{2A + B + 2C + \theta}{A}
+\]
+となる。
+ここで、この式は明らかに、
+定数である $(A + B + C)$ を省くことで簡略化される。
+このとき、$k = \frac{A+C+\theta}{A}$ となるが、
+または、より簡単な表現として、$180^\circ$  を再び引くことで、
+$k = \frac{\theta - B}{A}$ が得られる。
+
+同様にして、
+\[
+l = \frac{\theta - C}{B},
+\quad
+m = \frac{\theta - A}{C}.
+\]
+
+Q.E.F.
+
+(2)
+
+我々は $kA = \theta - B$ であることを見たが、
+これより $\angle ADC$ は明らかに $\theta$ に等しく、
+角 $BEA, CFB$ についてもそうである。
+
+これによって幾何的な作図ができる。つまり、
+$A, B, C$ から対辺に向けて、同じ角度 $\theta$ で直線をひけばよい。
+
+(3)
+
+ここで、$\theta$ の値の範囲を確かめよう。
+
+$kA = \theta - B$ であることが分かっている。
+
+ここで、$kA > A$ ではない。ゆえに、$\theta - B > A$ ではなく、
+すなわち、$\theta > A + B$ ではない。
+
+すなわち、$\theta$ は $C$ の補角よりも大きくない。
+
+そして、もちろんこれは 3 つの角度 $A, B, C$
+のそれぞれについても正しい。
+すなわち、$A, B, C$ が角度が小さい順序であるとすると、
+$\theta$ は $A$ の補角より大きくない。
+
+再び、$kA > 0$ ではない。
+
+ゆえに、$\theta - B < 0$ ではなく、
+すなわち、$\theta < B$ ではない。
+
+そして、もちろんこれは角のそれぞれについて正しい。
+
+ゆえに、もし $A, B, C$ が角度が小さい順序であるとすると、
+$\theta < A$ ではなく、$\theta > 180^\circ - A$ ではない。
+
+Q.E.F.
+
+(4)
+
+ここでは $B'C'$ の $BC$ に対する比を確認しよう。
+
+三角形 $A'B'C'$ では、
+この角度は $(\theta - B), (180^\circ - \theta - A), (180^\circ - C)$
+であるから、
+\[
+AC' = \frac{AB}{\sin AC'B} \sin ABC'
+= \frac{c}{\sin C} \sin (\theta + A) 
+= \frac{a}{\sin A} \sin (\theta + A);
+\]
+\[
+BC' = \frac{AB}{\sin AC'B} \sin BAC'
+= \frac{c}{\sin C} \sin (\theta - B) 
+= \frac{a}{\sin A} \sin (\theta - B) 
+\]
+となる。
+ゆえに、対称性によって、
+\[
+AB' = \frac{a}{\sin A} \sin (\theta - A) 
+\]
+である。
+ここで、$B'C' = AC' - AB'$ であるから、
+\[
+\therefore
+B'C' = \frac{a}{\sin A} \left\{
+    \sin (\theta + A) - \sin (\theta - A) \right\}
+    = \frac{a}{\sin A} \cdot 2 \cos \theta \sin A
+    = a \cdot 2\cos \theta.
+\]
+ゆえに、
+\[
+\frac{a'}{a} = \frac{b'}{b} = \frac{c'}{c} = 2 \cos \theta
+\]
+となる。
+
+Q.E.F.
+
+
+\subsection*{70.}
+
+三角形を含んだ平面を折る前には、
+それらの頂点の軌跡は明らかに、その共通の底辺に平行な直線である。
+ゆえに、もし四面体の底辺 $=1$ ならば、
+紙の帯は、その幅が $\frac{\sqrt{3}}{2}$ であって、
+四面体の前面にはりつけられて、
+右に向かって巻きつけられる。
+そして、この帯の上辺は明らかに、各頂点の軌跡になる。
+この帯は、
+その底辺が上下に入れ替わって置かれている合同な三角形に分割されている、
+と考えるのが便利である。
+これらの三角形が「前面、右の面、底面、左の面、前面、……」
+という順序で、四面体の各面を順に覆って行くことは明白である。
+そして、帯の上辺は、
+逆向きに置かれた三角形たちの底辺になっているのだが、
+以下のように動いて行くことは明らかだろう。
+三角形たちを順に、最初の三角形のあと
+(これは四面体の前面を占める)、
+`$\alpha$' (底辺が上)、`$\beta$' (底辺が下)、
+`$\gamma$' (底辺が上)、`$\delta$' (底辺が下)、
+`$\epsilon$' (底辺が上)、のように呼ぶと、
+軌跡は $\alpha, \gamma, \cdots$ の底辺によって構成される。
+ここで、`$\alpha$' は右面を占め、
+その底辺は四面体の裏側の辺と一致する。
+`$\beta$' は四面体の底面を占め、
+その底辺は前面の辺と一致する。
+`$\gamma$' は左面を占め、
+その底辺が裏側の辺と一致する。
+以下も同様である。
+ゆえに、軌跡は裏側の辺に下がって、また上がり、
+というように続いて行く。これが (1) の答である。
+
+Q.E.F.
+
+あとの 3 つの問題に答えるために、帯を折る前の状態を考えて、
+その上辺に沿った頂点の位置を計算しよう。
+これで問題は「平面」の上のものになる。
+
+(2)
+
+直角三角形で、その右側の角度が $15^\circ$ で、その高さが
+$\frac{\sqrt{3}}{2}$ であるものを考える。
+我々はその底辺の長さを計算しなければならない。
+そのあと、最初の三角形の底辺の半分を減じて
+(すなわち $\frac{1}{2}$ を減ずる)、
+帯の上辺に沿って測って、最初の三角形の頂点から、
+与えられた三角形の頂点への距離を得る。
+これから、目標の頂点に到達するのに、
+何回裏側の辺を上下に動かなければならないかを計算できる。
+この直角三角形の底辺の長さを $x$ とする。
+このとき、
+\[
+\frac{\sqrt{3}}{2} \div x = \tan 15^\circ.
+\]
+ここで、$\tan 15^\circ$ を `$t$' と呼ぶと、
+\[
+\frac{2t}{1 - t^2} = \tan 30^\circ = \frac{1}{\sqrt{3}}
+\]
+となる。よって、
+\[
+\therefore
+1 - t^2 = 2 \sqrt{3} \cdot t;
+\quad
+t^2 + 2 \sqrt{3} \cdot t - 1 = 0;
+\]
+\[
+\therefore
+t = \frac{-2 \sqrt{3} \pm 4}{2}
+= \mbox{(負の値は却下して)} 2 - \sqrt{3}.
+\]
+\[
+\therefore
+x = \frac{\sqrt{3}}{2(2 - \sqrt{3})}
+= \frac{\sqrt{3}}{2} (2 + \sqrt{3})
+= \sqrt{3} + \frac{3}{2}.
+\]
+$\frac{1}{2}$ を減じて、求める距離 $(\sqrt{3} + 1)$
+を得る。
+
+ここで、$\sqrt{3} = 1.7\cdots$ だから、
+$\therefore$ 距離 $= 2.7 \cdots$ となる。
+
+ゆえに、裏側の辺を下に、次に上に、次に約 $0.7$
+下がる。これが (2) の答である。
+
+(3)
+
+裏側の辺を下に、そしてまた上に、と動く必要がある。
+すなわち、底辺が上向きの `$\alpha$' と `$\gamma$'
+を使わねばならない。
+ゆえに、求める直角三角形の底辺の長さは $2 \frac{1}{2}$
+である。
+ゆえに、求める左側の角度は、
+\[
+\tan^{-1} \left( \frac{\sqrt{3}}{2} \div \frac{5}{2} \right);
+\quad
+\mbox{すなわち}
+\tan^{-1} \frac{\sqrt{3}}{5}
+\]
+となる。
+ゆえに、求める底角について、$\frac{\sin}{\cos} = \frac{\sqrt{3}}{5}$
+である。
+\[
+\therefore
+\frac{\sin}{\sqrt{5}} = \frac{\cos}{5}
+= \frac{1}{\sqrt{28}};
+\quad
+\therefore
+\sin = \sqrt{\frac{3}{28}}
+= \frac{\sqrt{84}}{28}
+= \frac{9.\cdots}{28}
+= 0.32\cdots
+\]
+となる。
+
+ここで、(「記憶術」により)、
+\[
+\sin^{-1} 3 = 17.45 \cdots^\circ,
+\quad
+\sin^{-1} 4 = 23.57 \cdots^\circ
+\]
+であることを知っていて、
+求める角度はこれらの値の間の約 $\frac{1}{5}$ のところ。
+しかし、この差はほとんど正確に $6^circ$ である。
+ゆえに、上の 2 つの値の小さい方に $1 \frac{1}{5}$ 度、
+つまり $1:20^\circ$ を足さなければならない。
+その合計は約 $18.65^\circ$ である。
+
+(4)
+
+ここではその直角三角形は、底辺が $3 \frac{1}{2}$ である。
+$\therefore$ 求める底角は、その正接が、
+\[
+\left( \frac{\sqrt{3}}{2} \div \frac{7}{2} \right);
+\quad
+\mbox{すなわち}
+\frac{\sqrt{3}}{7}
+\]
+である。
+\[
+\therefore
+\frac{\sin}{\sqrt{3}}
+= \frac{\cos}{7} = \frac{1}{\sqrt{52}};
+\quad
+\therefore
+\sin = \sqrt{\frac{3}{52}}
+= \mbox{ほぼ} \sqrt{\frac{1}{17}}
+= \mbox{ほぼ} \frac{\sqrt{17}}{17}.
+\]
+ここで、$\sqrt{17} = 4.12 \cdots$ だから、
+$\therefore \sin = 0.24\cdots$ となる。
+
+ここで、$\sin^{-1} 2 = 11.53 \cdots^\circ$
+であり、次の角度の $17.45^\circ$ までの半分が求める値。
+この差は約 $6^\circ$ である。
+$\therefore$ 約 $3^\circ$ を加えなければならない。
+ゆえに、答は $14.53^\circ$ である。
+
+
+\subsection*{71.}
+
+[訳者より：ここに図を入れる] 
+
+$ABC$ を与えられた三角形とし、$P$ を与えられた点とする。
+
+$ABC$ の各辺を $D, E, F$ において二等分し、
+これらの点を結ぶ。
+
+まず、$P$ を三角形 $DEF$ の中にあるとする。
+
+$BC$ に平行に $HG$ をひき、その $BC$ からの距離が、
+$BC$ から $P$ までの距離の 2 倍になるようにする。
+$GP, HP$ を結び、これらを延長して $BC$ との交点を $L, M$ とする。
+$L$ から $AC$ に平行に $LK$ をひく。
+$KP$ を結び、これを延長して $AC$ との交点を $N$ とする。
+$MN$ を結ぶ。
+
+$HG$ は $LM$ に平行だから、
+\[
+\therefore
+GP = PL,
+\quad
+\mbox{かつ}
+\quad HP = PM;
+\]
+$\because$ $KL$ は $GN$ に平行であり、$LP = PG$ である。
+\[
+\therefore
+KP = PN;
+\quad
+\therefore
+\mbox{$MN$ は $HK$ に平行。}
+\]
+ここで、三角形 $PGH, PLM$ は全てにおいて等しい。
+\[
+\therefore
+GH = LM.
+\quad
+\mbox{同様に $KL = GN$ であり、$MN = HK$ である。}
+\]
+もし、$P$ が $FE$ の上にあれば、
+$HG$ と $LM$ はなくなり、六角形は平行四辺形になる。
+
+もし、$P$ が $D$ にあれば、六角形は直線 $BC$ になる。
+
+もし、$P$ が三角形 $DEF$ の外にあれば、問題は解けない。
+
+Q.E.F.
+
+
+\subsection*{72.}
+
+袋の中に 3 つの小石があり、2 つが黒石で 1 つが白石であるとき、
+黒石をひく確率が $\frac{2}{3}$ であること、
+そして、この他のいかなる状態もこれと同じ確率を与えないことは、
+分かっている。
+
+ここで、与えられた袋の中身が、
+($\alpha$) 黒黒、($\beta$) 黒白、($\gamma$) 白白である確率は、
+それぞれ $\frac{1}{4},\frac{1}{2},\frac{1}{4}$ である。
+
+ここに黒石 1 つを加える。
+
+このとき袋の中身が、
+($\alpha$) 黒黒黒、($\beta$) 黒白黒、($\gamma$) 白白黒である確率は、
+上と同様に、それぞれ $\frac{1}{4},\frac{1}{2},\frac{1}{4}$ である。
+
+ゆえに、いま黒石をひく確率は、
+\[
+= \frac{1}{4} \cdot 1 + \frac{1}{2} \cdot \frac{2}{3}
++\frac{1}{4} \cdot \frac{1}{3} = \frac{2}{3}
+\]
+である。
+
+ゆえに、いま袋の中身は黒黒白である。
+(なぜなら、この他のどんな状態もこの確率を与えないから。)
+
+ゆえに、黒石 1 つを加える前は、袋の中身は黒白だったのであり、
+すなわち、1 つの黒石、1 つの白石が入っていた。
+
+Q.E.F.
+
+[訳注： もちろん、この問題と解答はジョークであろう。
+現代的に言えば、
+確率空間を意図的に混同したことによるナンセンスである。
+キャロルの時代においては厳密な確率論の数学的基礎づけがなかったとは言え、
+上の議論のどこが誤りであるか、キャロルは明確に理解していただろう。]
+
