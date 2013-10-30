@@ -18,5 +18,5 @@
 * README.md: This file. Drink me.
 * pillow_problems: A directory for "Pillow Problems"
 
- + packages: amsfonts, amsmath, amssymb
+ + packages: amssymb
  + `% platex pillow_problems.tex`

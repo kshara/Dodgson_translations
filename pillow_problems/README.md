@@ -8,7 +8,7 @@
 
 * System
  + pLaTeX
- + packages: amsfonts, amsmath, amssymb
+ + package: amssymb
 
 * Character encoding
  + UTF-8
