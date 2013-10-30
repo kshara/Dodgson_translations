@@ -1,4 +1,4 @@
-# LaTeX source files for "Pillow Problems"
+# LaTeX source files for Japanese translation of "Pillow Problems"
 
 ## License
 
