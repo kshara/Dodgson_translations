@@ -20,3 +20,5 @@
 
  + packages: amssymb
  + `% platex pillow_problems.tex`
+
+* short_articles: A directry for several short articles by C.L.Dodgson
