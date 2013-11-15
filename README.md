@@ -27,8 +27,8 @@
 
  + "Something or Nothing?" and "Question 9448"
 
-  * `% platex something_or_nothing.tex`
+   * `% platex something_or_nothing.tex`
 
  + Chapter 1 of "Simple Facts about Circle-Squaring"
 
-  * `% platex circle_squarer.tex`
+   * `% platex circle_squarer.tex`
