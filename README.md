@@ -32,3 +32,7 @@
  + Chapter 1 of "Simple Facts about Circle-Squaring"
 
    * `% platex circle_squarer.tex`
+
+ + "The Matrix Cipher"
+
+   * `% platex matrix_cipher.tex`
