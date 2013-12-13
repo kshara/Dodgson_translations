@@ -36,3 +36,7 @@
  + "The Matrix Cipher"
 
    * `% platex matrix_cipher.tex`
+
+ + "Purity of Election"
+
+   * `% platex purity.tex`
